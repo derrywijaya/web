@@ -1,0 +1,262 @@
+{
+    "framingdata": {
+        "pageTitleArea": [
+            {
+                "title": "News Framing",
+                "subTitle": "NLP in Communication"
+            }
+        ],
+        "teamMembers": [
+            {
+                "img": "assets/img/photos/isidora.jpeg",
+                "title": "Isidora Tourni",
+                "designation": "PhD Candidate",
+                "facebookLink": "#",
+                "facebookIcon": "bx bxl-facebook",
+                "twitterLink": "#",
+                "twitterIcon": "bx bxl-twitter",
+                "instagramLink": "#",
+                "instagramIcon": "bx bxl-instagram",
+                "linkedinLink": "#",
+                "linkedinIcon": "bx bxl-linkedin"
+            },
+            {
+                "img": "assets/img/photos/yusuf.jpeg",
+                "title": "Yusuf Kocyigit",
+                "designation": "PhD Candidate",
+                "facebookLink": "#",
+                "facebookIcon": "bx bxl-facebook",
+                "twitterLink": "#",
+                "twitterIcon": "bx bxl-twitter",
+                "instagramLink": "#",
+                "instagramIcon": "bx bxl-instagram",
+                "linkedinLink": "#",
+                "linkedinIcon": "bx bxl-linkedin"
+            }
+        ],
+        "publicationContent": 
+            {
+                "title": "Our selected publications",
+                "paragraphText1": "Below is the list of our latest publications.",
+                "paragraphText2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+                "defaultBtnIcon": "flaticon-right",
+                "defaultBtnText": "Google Scholar",
+                "defaultBtnLink": "https://scholar.google.com/citations?user=8lmWWD0AAAAJ&hl=en"
+            }
+        ,
+        "pubList": [
+            {
+                "icon": "flaticon-idea",
+                "title": "LAL: Linguistically Aware Learning for Scene Text Recognition",
+                "text": "Yi Zheng, Wenda Qin, Derry Wijaya, Margrit Betke. Proc. of ACM Multimedia 2020 (to appear)",
+                "link": "mmfp0166-zhengA.pdf"
+            },
+            {
+                "icon": "flaticon-idea",
+                "title": "Multi-label and Multilingual News Framing Analysis",
+                "text": "Afra Feyza Akyürek, Lei Guo, Randa Elanwar, Margrit Betke, Prakash Ishwar, Derry T. Wijaya. Proc. of ACL 2020",
+                "link": "2020.acl-main.763.pdf"
+            }
+        ],
+        "caseStudiesDetailsInfo": [
+            {
+                "icon": "bx bx-user-pin",
+                "title": "Grant",
+                "subTitle": "SNF "
+            },
+            {
+                "icon": "bx bx-check",
+                "title": "Started on",
+                "subTitle": "June 2018"
+            }
+        ],
+        "caseStudiesDetailsDesc": [
+            {
+                "subTitle": "Data Science",
+                "title1": "Complete Data Science Training: Mathematics, Statistics, Python, Advanced Statistics in Python",
+                "paragraph1": "Improve Machine Learning algorithms by studying underfitting, overfitting, training, validation, n-fold cross validation, testing, and how hyperparameters could improve performance. Perform linear and logistic regressions in Python.",
+                "img1": "assets/img/projects/img2.jpg",
+                "title2": "Important Facts",
+                "paragraph2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.",
+                "paragraph3": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.",
+                "title3": "Results",
+                "paragraph4": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna ad aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco labori."
+            }
+        ],
+        "externalLink" :[
+            {
+                "text": "test Texk",
+                "url" : "http://www.google.com"
+            }
+        ]
+    },
+    "fewshotdata": {
+        "pageTitleArea": [
+            {
+                "title": "Few-shot Incremental learning",
+                "subTitle": "NLP"
+            }
+        ],
+        "teamMembers": [
+            {
+                "img": "assets/img/photos/feyza.jpeg",
+                "title": "Feyza Akyurek",
+                "designation": "PhD Candidate",
+                "facebookLink": "#",
+                "facebookIcon": "bx bxl-facebook",
+                "twitterLink": "#",
+                "twitterIcon": "bx bxl-twitter",
+                "instagramLink": "#",
+                "instagramIcon": "bx bxl-instagram",
+                "linkedinLink": "#",
+                "linkedinIcon": "bx bxl-linkedin"
+            }
+        ],
+        "publicationContent": 
+            {
+                "title": "Our selected publications",
+                "paragraphText1": "Below is the list of our latest publications.",
+                "paragraphText2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+                "defaultBtnIcon": "flaticon-right",
+                "defaultBtnText": "Google Scholar",
+                "defaultBtnLink": "https://scholar.google.com/citations?user=8lmWWD0AAAAJ&hl=en"
+            }
+        ,
+        "pubList": [
+            {
+                "icon": "flaticon-idea",
+                "title": "LAL: Linguistically Aware Learning for Scene Text Recognition",
+                "text": "Yi Zheng, Wenda Qin, Derry Wijaya, Margrit Betke. Proc. of ACM Multimedia 2020 (to appear)",
+                "link": "mmfp0166-zhengA.pdf"
+            },
+            {
+                "icon": "flaticon-idea",
+                "title": "Multi-label and Multilingual News Framing Analysis",
+                "text": "Afra Feyza Akyürek, Lei Guo, Randa Elanwar, Margrit Betke, Prakash Ishwar, Derry T. Wijaya. Proc. of ACL 2020",
+                "link": "2020.acl-main.763.pdf"
+            }
+        ],
+        "caseStudiesDetailsInfo": [
+            {
+                "icon": "bx bx-user-pin",
+                "title": "Grant",
+                "subTitle": "SNF "
+            },
+            {
+                "icon": "bx bx-check",
+                "title": "Started on",
+                "subTitle": "June 2018"
+            }
+        ],
+        "caseStudiesDetailsDesc": [
+            {
+                "subTitle": "Data Science",
+                "title1": "Complete Data Science Training: Mathematics, Statistics, Python, Advanced Statistics in Python",
+                "paragraph1": "Improve Machine Learning algorithms by studying underfitting, overfitting, training, validation, n-fold cross validation, testing, and how hyperparameters could improve performance. Perform linear and logistic regressions in Python.",
+                "img1": "assets/img/projects/img2.jpg",
+                "title2": "Important Facts",
+                "paragraph2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.",
+                "paragraph3": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.",
+                "title3": "Results",
+                "paragraph4": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna ad aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco labori."
+            }
+        ],
+        "externalLink" :[
+            {
+                "text": "test Texk",
+                "url" : "http://www.google.com"
+            }
+        ]
+    },
+    "translationdata": {
+        "pageTitleArea": [
+            {
+                "title": "Machine Translation",
+                "subTitle": "NLP"
+            }
+        ],
+        "teamMembers": [
+            {
+                "img": "assets/img/photos/isidora.jpeg",
+                "title": "Isidora Tourni",
+                "designation": "PhD Candidate",
+                "facebookLink": "#",
+                "facebookIcon": "bx bxl-facebook",
+                "twitterLink": "#",
+                "twitterIcon": "bx bxl-twitter",
+                "instagramLink": "#",
+                "instagramIcon": "bx bxl-instagram",
+                "linkedinLink": "#",
+                "linkedinIcon": "bx bxl-linkedin"
+            },
+            {
+                "img": "assets/img/photos/feyza.jpeg",
+                "title": "Feyza Akyurek",
+                "designation": "PhD Candidate",
+                "facebookLink": "#",
+                "facebookIcon": "bx bxl-facebook",
+                "twitterLink": "#",
+                "twitterIcon": "bx bxl-twitter",
+                "instagramLink": "#",
+                "instagramIcon": "bx bxl-instagram",
+                "linkedinLink": "#",
+                "linkedinIcon": "bx bxl-linkedin"
+            }
+        ],
+        "publicationContent": 
+            {
+                "title": "Our selected publications",
+                "paragraphText1": "Below is the list of our latest publications.",
+                "paragraphText2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+                "defaultBtnIcon": "flaticon-right",
+                "defaultBtnText": "Google Scholar",
+                "defaultBtnLink": "https://scholar.google.com/citations?user=8lmWWD0AAAAJ&hl=en"
+            }
+        ,
+        "pubList": [
+            {
+                "icon": "flaticon-idea",
+                "title": "LAL: Linguistically Aware Learning for Scene Text Recognition",
+                "text": "Yi Zheng, Wenda Qin, Derry Wijaya, Margrit Betke. Proc. of ACM Multimedia 2020 (to appear)",
+                "link": "mmfp0166-zhengA.pdf"
+            },
+            {
+                "icon": "flaticon-idea",
+                "title": "Multi-label and Multilingual News Framing Analysis",
+                "text": "Afra Feyza Akyürek, Lei Guo, Randa Elanwar, Margrit Betke, Prakash Ishwar, Derry T. Wijaya. Proc. of ACL 2020",
+                "link": "2020.acl-main.763.pdf"
+            }
+        ],
+        "caseStudiesDetailsInfo": [
+            {
+                "icon": "bx bx-user-pin",
+                "title": "Grant",
+                "subTitle": "SNF "
+            },
+            {
+                "icon": "bx bx-check",
+                "title": "Started on",
+                "subTitle": "June 2018"
+            }
+        ],
+        "caseStudiesDetailsDesc": [
+            {
+                "subTitle": "Data Science",
+                "title1": "Complete Data Science Training: Mathematics, Statistics, Python, Advanced Statistics in Python",
+                "paragraph1": "Improve Machine Learning algorithms by studying underfitting, overfitting, training, validation, n-fold cross validation, testing, and how hyperparameters could improve performance. Perform linear and logistic regressions in Python.",
+                "img1": "assets/img/projects/img2.jpg",
+                "title2": "Important Facts",
+                "paragraph2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.",
+                "paragraph3": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.",
+                "title3": "Results",
+                "paragraph4": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna ad aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco labori."
+            }
+        ],
+        "externalLink" :[
+            {
+                "text": "test Texk",
+                "url" : "http://www.google.com"
+            }
+        ]
+    }
+}

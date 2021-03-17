@@ -1,0 +1,126 @@
+{
+    "courseList": [
+        {
+            "code": "CS505",
+            "pageTitleArea": {
+                "title": "CS505 - Introduction to Natural Language Processing",
+                "subTitle": "Subtitle"
+            },
+            "courseDesc": [
+                {
+                    "title": "Course Description",
+                    "paragraphText1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+                },
+                {
+                    "title": "What wull you learn",
+                    "paragraphText1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+                }
+            ],
+            "curriculum": [
+                {
+                    "title": "Python Introduction",
+                    "moduleList": [
+                        {
+                            "title": "Python Introduction"
+                        }
+                    ]
+                },
+                {
+                    "title": "Stepping into the World of Python",
+                    "moduleList": [
+                        {
+                            "title": "NumPy Introduction"
+                        },
+                        {
+                            "title": "NumPy Getting Started"
+                        }
+                    ]
+                }
+            ],
+            "courseInfo": {
+                "image": "assets/img/photos/nlp.jpg",
+                "courseDetail": [
+                  
+                    {
+                        "title": "Duration",
+                        "text": "12 weeks",
+                        "icon": "flaticon-stopwatch"
+                    },
+                    {
+                        "title": "Offered in",
+                        "text": "Spring Semester",
+                        "icon": "flaticon-distance-education"
+                    },
+                    {
+                        "title": "Prerequisites",
+                        "text": "Machine Learning <br/> Python <br/> Statistics",
+                        "icon": "flaticon-open-padlock"
+                    }
+                ]
+            }
+        },
+        {
+            "code": "CS591-W1",
+            "pageTitleArea": {
+                "title": "CS 591-W1 - Towards Universal Natural Language Understanding",
+                "subTitle": "Subtitle"
+            },
+            "courseDesc": [
+                {
+                    "title": "Course Description",
+                    "paragraphText1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+                },
+                {
+                    "title": "What wull you learn",
+                    "paragraphText1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+                }
+            ],
+            "curriculum": [
+                {
+                    "title": "Python Introduction",
+                    "moduleList": [
+                        {
+                            "title": "Python Introduction"
+                        }
+                    ]
+                },
+                {
+                    "title": "Stepping into the World of Python",
+                    "moduleList": [
+                        {
+                            "title": "NumPy Introduction"
+                        },
+                        {
+                            "title": "NumPy Getting Started"
+                        }
+                    ]
+                }
+            ],
+            "courseInfo": {
+                "image": "assets/img/photos/ideas.jpg",
+                "courseDetail": [
+                    {
+                        "title": "Instructor",
+                        "text": "Derry Wijaya",
+                        "icon": "flaticon-teacher"
+                    },
+                    {
+                        "title": "Duration",
+                        "text": "12 weeks",
+                        "icon": "flaticon-stopwatch"
+                    },
+                    {
+                        "title": "Offered in",
+                        "text": "Spring Semester",
+                        "icon": "flaticon-distance-education"
+                    },
+                    {
+                        "title": "Prerequisites",
+                        "text": "Machine Learning <br/> Python <br/> Statistics",
+                        "icon": "flaticon-open-padlock"
+                    }
+                ]
+            }
+        }
+    ]
+}
