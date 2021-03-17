@@ -42,7 +42,7 @@ export class CoursesDetailsPageComponent implements OnInit {
     }
 
     getJSONData() {
-        return this.http.get("../../../../assets/data/coursedetailsdata.json");
+        return this.http.get("./assets/data/coursedetailsdata.json");
     }
 
 

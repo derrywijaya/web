@@ -31,7 +31,7 @@ export class CoursesPageComponent implements OnInit {
     }
 
     getJSONData() {
-        return this.http.get("../../../../assets/data/coursedata.json");
+        return this.http.get("./assets/data/coursedata.json");
       }
 
     pageTitleArea: IPageTitle = 

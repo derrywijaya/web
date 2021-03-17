@@ -34,7 +34,7 @@ export class HomepageThreeComponent implements OnInit {
     }
 
     getJSONData() {
-        return this.http.get("../../../../assets/data/personaldata.json");
+        return this.http.get("./assets/data/personaldata.json");
       }
 
     

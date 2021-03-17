@@ -55,7 +55,7 @@ export class ResearchsComponent implements OnInit {
   }
 
   getJSONData() {
-    return this.http.get("../../../../assets/data/pagedata.json");
+    return this.http.get("./assets/data/pagedata.json");
   }
 
   
