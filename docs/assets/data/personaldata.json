@@ -1,0 +1,49 @@
+{
+    "publicationContent":{
+        "title": "My selected publications",
+        "paragraphText1": "Below is the list of my latest publications.",
+        "paragraphText2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+        "defaultBtnIcon": "flaticon-right",
+        "defaultBtnText": "Google Scholar",
+        "defaultBtnLink": "https://scholar.google.com/citations?user=8lmWWD0AAAAJ&hl=en"
+    },
+    "publicationList":[
+        {
+            "icon": "flaticon-idea",
+            "title": "LAL: Linguistically Aware Learning for Scene Text Recognition",
+            "text": "Yi Zheng, Wenda Qin, Derry Wijaya, Margrit Betke. Proc. of ACM Multimedia 2020 (to appear)",
+            "link": "mmfp0166-zhengA.pdf"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "LAL: Linguistically Aware Learning for Scene Text Recognition",
+            "text": "Yi Zheng, Wenda Qin, Derry Wijaya, Margrit Betke. Proc. of ACM Multimedia 2020 (to appear)",
+            "link": "mmfp0166-zhengA.pdf"
+        }
+    ],
+    "grantContent":{
+        "title": "Grants",
+        "paragraphText1": "Grants received."
+       
+    },
+    "grantList":[
+        {
+            "icon":"flaticon-idea",
+            "title": "Big Data",
+            "text": "News Framing research",
+            "link": "mmfp0166-zhengA.pdf",
+            "period": "2019-2022",
+            "amount": 1000000,
+            "sponsor": "NSF"
+        },
+        {
+            "icon":"flaticon-idea",
+            "title": "Big Data",
+            "text": "News Framing research",
+            "link": "mmfp0166-zhengA.pdf",
+            "period": "2019-2022",
+            "amount": 1000000,
+            "sponsor": "NSF"
+        }
+    ]
+}

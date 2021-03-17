@@ -1,0 +1,21 @@
+{
+    "singleCourses": [
+        {
+            "courseImg": "assets/img/photos/nlp.jpg",
+            "coursePriceClass": "free",           
+            "title": "CS505 - Introduction to Natural Language Processing",
+            "link": "CS505",
+            "paragraphText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+            "courseDuration": "Spring Semester"            
+        },
+        {
+            "courseImg": "assets/img/photos/ideas.jpg",
+            "coursePriceClass": "free",           
+            "title": "CS 591-W1 - Towards Universal Natural Language Understanding",
+            "link": "CS591-W1",
+            "paragraphText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+            "courseDuration": "Spring Semester"
+      
+        }
+    ]
+}
