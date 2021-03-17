@@ -1,0 +1,47 @@
+<section class="page-title-area">
+    <div class="container">
+        <div class="page-title-content">
+            <h2>{{pageTitleArea.title}}</h2>
+            <ul>
+                <li><a routerLink="/">Home</a></li>
+                <li>{{pageTitleArea.title}}</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="shape-img1"><img src="assets/img/shape/shape1.svg" alt="image"></div>
+    <div class="shape-img2"><img src="assets/img/shape/shape2.png" alt="image"></div>
+    <div class="shape-img3"><img src="assets/img/shape/shape3.png" alt="image"></div>
+</section>
+
+<section class="courses-area ptb-100 bg-fafafb">
+    <div class="container">
+        <div class="row" *ngIf="researchData">
+            <div class="col-lg-6 col-md-6" *ngFor="let coursesContent of researchData.singleCourses;">
+                <div class="single-courses-box">
+                    <div class="courses-image">
+                        <a routerLink="/courses-details/{{coursesContent.link}}" class="d-block image">
+                            <img [src]="coursesContent.courseImg" alt="image">
+                        </a>
+                        <div class="price shadow {{coursesContent.coursePriceClass}}">{{coursesContent.coursePrice}}</div>
+                    </div>
+
+                    <div class="courses-content">
+                    
+                        <h3><a routerLink="/courses-details/{{coursesContent.link}}">{{coursesContent.title}}</a></h3>
+                        <p>{{coursesContent.paragraphText}}</p>
+
+                        <ul class="courses-box-footer d-flex justify-content-between align-items-center">
+                            <li>
+                                <i class='flaticon-agendas'></i> {{coursesContent.courseDuration}}
+                            </li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+           
+        </div>
+    </div>
+</section>

@@ -1,0 +1,86 @@
+
+
+<section class="courses-details-area pb-100">
+    <!-- <div class="courses-details-image">
+        <img src="assets/img/courses/courses-details.jpg" alt="image"> 
+    </div> -->
+
+    <div class="container">
+        <div *ngIf="courseDetail" class="row">
+            <div class="col-lg-8 col-md-12">
+                <div>
+                    <section class="page-title-area">
+                        <div class="container">
+                            <div class="page-title-content">
+                                <h2>{{courseDetail.pageTitleArea.title}}</h2>
+                            
+                            </div>
+                        </div>
+                    
+                    </section>
+                </div>
+                <div class="courses-details-desc">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item"><a class="nav-link active" id="overview-tab" data-toggle="tab" href="#overview" role="tab" aria-controls="overview">Overview</a></li>
+                        <li class="nav-item"><a class="nav-link" id="curriculum-tab" data-toggle="tab" href="#curriculum" role="tab" aria-controls="curriculum">Curriculum</a></li>
+                     
+                    </ul>
+
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="overview" role="tabpanel">
+                            <div class="courses-overview">
+                                <div *ngFor="let Info of courseDetail.courseDesc;">                                    
+                                    <h3>{{Info.title}}</h3>
+                                    <p>{{Info.paragraphText1}}</p>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="curriculum" role="tabpanel">
+                            <div class="courses-curriculum">
+                                <div *ngFor="let cur of courseDetail.curriculum;">                                    
+                                    <h3>{{cur.title}}</h3>
+                                    
+                                    <ul>
+                                        <li *ngFor="let desc of cur.moduleList;"><a class="d-flex justify-content-between align-items-center">
+                                            <span class="courses-name">{{desc.title}}</span>
+                                          
+                                        </a></li>
+                                    </ul>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12">
+                <div class="courses-details-info">
+                    <div class="image">
+                        <img src="{{courseDetail.courseInfo.image}}" alt="image">
+                        <!-- <a href="https://www.youtube.com/watch?v=PWvPbGWVRrU" class="link-btn popup-youtube"></a> -->
+                        <div class="content">
+                            <!-- <i class="flaticon-google-play"></i> -->
+                            <!-- <span>Course Preview</span> -->
+                        </div>
+                    </div>
+
+                    <ul class="info">
+                        <li *ngFor="let cur of courseDetail.courseInfo.courseDetail;">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span><i class="{{cur.icon}}"></i> {{cur.title}}</span>
+                                <p [innerHTML]="cur.text"></p>
+                            </div>
+                        </li>
+
+                        
+                    </ul>
+
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

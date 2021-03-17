@@ -1,0 +1,67 @@
+
+
+<section class="case-studies-details-area ptb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-12 page-title-content" *ngFor="let pageTitle of inputData.pageTitleArea;">
+                <h2>{{pageTitle.title}}</h2>
+                <p>{{pageTitle.subTitle}}</p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-8 col-md-12">
+                <!-- <div class="case-studies-details-image" *ngFor="let Image of caseStudiesDetailsImage;">
+                    <img [src]="Image.img" alt="image">
+                </div> -->
+
+                <div class="case-studies-details-desc" *ngFor="let DetailsDesc of inputData.caseStudiesDetailsDesc;">
+                    <span class="sub-title">{{DetailsDesc.subTitle}}</span>
+                    <h3>{{DetailsDesc.title1}}</h3>
+                    <p>{{DetailsDesc.paragraph1}}</p>
+
+                    <div class="row align-items-center">
+                    </div>
+                    <p>{{DetailsDesc.paragraph2}}</p>
+                    <p>{{DetailsDesc.paragraph3}}</p>
+                    <h3>{{DetailsDesc.title3}}</h3>
+                    <p>{{DetailsDesc.paragraph4}}</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12">
+                <div class="case-studies-sidebar-sticky">
+                    <div class="case-studies-details-info">
+                        <ul>
+                            <li *ngFor="let Info of inputData.caseStudiesDetailsInfo;">
+                                <div class="icon">
+                                    <i class='{{Info.icon}}'></i>
+                                </div>
+                                <span>{{Info.title}}:</span>
+                                {{Info.subTitle}}
+                            </li>
+                        </ul>
+                    </div>
+                    <div *ngIf="inputData.externalLink" class="case-studies-details-info">
+                        <h4>External links</h4>
+                        <ul>
+                            <li *ngFor="let lnk of inputData.externalLink;">
+                             
+                                <a href="{{lnk.url}}" class="d-block image" target="_blank">
+                                   <span>{{lnk.text}}</span>
+                                </a>
+                              
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <app-team-page *ngIf="inputData" [singleScientistBox] = 'inputData.teamMembers'></app-team-page>
+    <app-homethree-mission *ngIf="inputData.publicationContent" [selectedPublication]="inputData.publicationContent" [pubList]='inputData.pubList'></app-homethree-mission>
+    
+</section>
+
+
