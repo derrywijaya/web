@@ -9,30 +9,73 @@
             "courseDesc": [
                 {
                     "title": "Course Description",
-                    "paragraphText1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+                    "paragraphText1": "This course is a graduate-level introductory course to Natural Language Processing. Natural language processing (NLP) is a field of Artificial Intelligence which aims to equip computers with the ability to intelligently process natural (human) language. Ever wondered how Google Translate works or want to build a computer that understands language? Then this course is for you.  The course will explore modern quantitative techniques for the automatic analysis of natural language data using large corpora and statistical, machine learning, and deep learning models. The course will also emphasize your understanding of the concepts and ideas in NLP through written and programming assignments. "
                 },
                 {
-                    "title": "What wull you learn",
-                    "paragraphText1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+                    "title": "What you will learn",
+                    "paragraphText1": "You will learn (1) key concepts from NLP used to describe and analyze languages (2) how to process and analyze language data. We'll cover topics in Jurafsky and Martin, Speech and Language Processing, 3rd edition (draft available <a href='https://web.stanford.edu/~jurafsky/slp3/' target='_blank'> online</a> ). Topics include: text processing, text classification, language modeling, vector semantics, neural language modeling, recurrent neural networks for NLP, unsupervised learning, part-of-speech tagging, context free grammar and parsing, information extraction, machine translation, QA, and dialogue systems."
                 }
             ],
             "curriculum": [
                 {
-                    "title": "Python Introduction",
+                    "title": "CS505: Introduction to Natural Language Processing",
                     "moduleList": [
                         {
-                            "title": "Python Introduction"
-                        }
-                    ]
-                },
-                {
-                    "title": "Stepping into the World of Python",
-                    "moduleList": [
-                        {
-                            "title": "NumPy Introduction"
+                            "title": "Introduction"
                         },
                         {
-                            "title": "NumPy Getting Started"
+                            "title": "Text Processing"
+                        },
+                        {
+                            "title": "Language Modeling"
+                        },
+                        {
+                            "title": "Text Classification"
+                        },
+                        {
+                            "title": "Vector Semantics"
+                        },
+                        {
+                            "title": "Neural Language Modeling"
+                        },
+                        {
+                            "title": "Recurrent Neural Networks"
+                        },
+                        {
+                            "title": "Seq2Seq Models"
+                        },
+                        {
+                            "title": "Transformers"
+                        },
+                        {
+                            "title": "Part-of-speech Tagging"
+                        },
+                        {
+                            "title": "Structured Prediction"
+                        },
+                        {
+                            "title": "Context Free Grammar"
+                        },
+                        {
+                            "title": "Parsing"
+                        },
+                        {
+                            "title": "Unsupervised Learning"
+                        },
+                        {
+                            "title": "Semantic Role Labeling"
+                        },
+                        {
+                            "title": "Information Extraction"
+                        },
+                        {
+                            "title": "Machine Translation"
+                        },            
+                        {
+                            "title": "Question Answering"
+                        },
+                        {
+                            "title": "Dialogue Systems"
                         }
                     ]
                 }
@@ -43,7 +86,7 @@
                   
                     {
                         "title": "Duration",
-                        "text": "12 weeks",
+                        "text": "14 weeks",
                         "icon": "flaticon-stopwatch"
                     },
                     {
@@ -53,7 +96,7 @@
                     },
                     {
                         "title": "Prerequisites",
-                        "text": "Machine Learning <br/> Python <br/> Statistics",
+                        "text": "Machine Learning <br/> Python",
                         "icon": "flaticon-open-padlock"
                     }
                 ]
@@ -68,30 +111,37 @@
             "courseDesc": [
                 {
                     "title": "Course Description",
-                    "paragraphText1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+                    "paragraphText1": "This is a graduate-level course on multilingual natural language processing (NLP) that is research-oriented and geared towards extending natural language processing approaches to more languages in the world even those without large annotated data. The course will start off with instructor-led presentations that introduce students to NLP. The rest of the course will focus on students' presentations and discussions of state-of-the-art approaches for multilingual NLP or algorithms that are relevant to learning with few annotated data by (1) discussing related research papers, (2) students' ideas for extending these approaches, and (3) results of these ideas' implementations. Participants take turns as discussion leaders."
                 },
                 {
-                    "title": "What wull you learn",
-                    "paragraphText1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+                    "title": "What you will learn",
+                    "paragraphText1": "This is a research intensive course. You will gain experience doing NLP research. At the end of the semester you would be expected to have a paper submitted or ready for submission to a conference/workshop in NLP."
                 }
             ],
             "curriculum": [
                 {
-                    "title": "Python Introduction",
+                    "title": "CS591-W1: Towards Universal Natural Language Understanding",
                     "moduleList": [
                         {
-                            "title": "Python Introduction"
-                        }
-                    ]
-                },
-                {
-                    "title": "Stepping into the World of Python",
-                    "moduleList": [
-                        {
-                            "title": "NumPy Introduction"
+                            "title": "Introduction, Text Processing, Language Modeling"
                         },
                         {
-                            "title": "NumPy Getting Started"
+                            "title": "Model formulation, vector semantics, multilingual representation"
+                        },
+                        {
+                            "title": "Neural models for NLP"
+                        },
+                        {
+                            "title": "Unsupervised and semi-supervised learning, domain adaptation"
+                        },
+                        {
+                            "title": "Machine translation"
+                        },
+                        {
+                            "title": "Information extraction, multimodal representation"
+                        },
+                        {
+                            "title": "Student-led presentations"
                         }
                     ]
                 }
@@ -106,17 +156,17 @@
                     },
                     {
                         "title": "Duration",
-                        "text": "12 weeks",
+                        "text": "15 weeks",
                         "icon": "flaticon-stopwatch"
                     },
                     {
                         "title": "Offered in",
-                        "text": "Spring Semester",
+                        "text": "Fall Semester",
                         "icon": "flaticon-distance-education"
                     },
                     {
                         "title": "Prerequisites",
-                        "text": "Machine Learning <br/> Python <br/> Statistics",
+                        "text": "Machine Learning <br/> Python",
                         "icon": "flaticon-open-padlock"
                     }
                 ]

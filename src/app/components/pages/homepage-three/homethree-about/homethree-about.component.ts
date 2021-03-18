@@ -14,7 +14,8 @@ export class HomethreeAboutComponent implements OnInit {
 
     aboutImage: Image[] = [
         {
-            img: 'assets/img/photos/derry-main.jpg'//'assets/img/about/img4.png'
+            img: 'assets/img/photos/derry-main.jpg',//'assets/img/about/img4.png',
+            caption: 'Here I was wearing batik at the United Nations Office in Geneva'
         }
     ]
     aboutContent: Content[] = [
@@ -42,6 +43,7 @@ export class HomethreeAboutComponent implements OnInit {
 }
 class Image {
     img : string;
+    caption: string;
 }
 class Content {
     title : string;

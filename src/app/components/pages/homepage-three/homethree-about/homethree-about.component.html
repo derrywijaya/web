@@ -4,6 +4,7 @@
             <div class="col-lg-5 col-md-12">
                 <div class="about-img" *ngFor="let Image of aboutImage;">
                     <img [src]="Image.img" alt="image">
+                    <figcaption>{{Image.caption}}</figcaption>
                     <div class="shape"><img src="assets/img/about/shape1.png"></div>
                 </div>
             </div>
@@ -12,13 +13,13 @@
                 <div class="about-content">
                     <div class="content">
                         <h2>Selamat Datang, </h2>
-                        <p>Hi, my name is Derry</p>
-                        <p>I am an Assistant Professor in the Computer Science Department of Boston University. Previously, I was a Postdoctoral Researcher at the Department of Computer and Information Science, University of Pennsylvania, working with Chris Callison-Burch. I received my Ph.D. from the Language Technologies Institute at Carnegie Mellon University (Tom Mitchell was my advisor).</p>
+                        <p>Hello, my name is Derry Wijaya.</p>
+                        <p>I am an Assistant Professor in the Computer Science Department of Boston University. Previously, I was a Postdoctoral Researcher at the Department of Computer and Information Science, University of Pennsylvania, working with Chris Callison-Burch. I received my Ph.D. from the Language Technologies Institute at Carnegie Mellon University with Tom Mitchell.</p>
                         <p class="wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
                             I received my Bachelor and Master degree in Computer Science from the National University of Singapore. From 2004 to 2006, I was a lecturer at Business Information Technology department in Institute of Technical Education (ITE) Singapore. In 2008 I did an internship in Google Zurich, Switzerland. In 2009-2010 I was a graduate research assistant at Artificial Intelligence Laboratory in University of Geneva, Switzerland.
                         </p>
                         <p>
-                            My research interest lies on the field of information extraction, machine learning, knowledge bases, machine reading, and natural language processing.
+                            My research interest lies on the field of natural language processing, machine learning, information extraction, and knowledge bases.
                         </p>
                         <!-- <a routerLink="/{{Content.defaultBtnLink}}" class="default-btn"><i class="{{Content.defaultBtnIcon}}"></i>{{Content.defaultBtnText}}<span></span></a> -->
                     </div>

@@ -5,7 +5,7 @@
             "coursePriceClass": "free",           
             "title": "CS505 - Introduction to Natural Language Processing",
             "link": "CS505",
-            "paragraphText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+            "paragraphText": "Natural language processing (NLP) is a field of Artificial Intelligence which aims to equip computers with the ability to intelligently process natural (human) language. Ever wondered how Google Translate works or want to build a computer that understands language? Then this graduate-level introduction course to NLP is for you. The course will explore modern quantitative techniques for the automatic analysis of natural language data using large corpora and statistical, machine learning, and deep learning models. The course will also emphasize your understanding of the concepts and ideas in NLP through hands-on programming assignments.",
             "courseDuration": "Spring Semester"            
         },
         {
@@ -13,8 +13,8 @@
             "coursePriceClass": "free",           
             "title": "CS 591-W1 - Towards Universal Natural Language Understanding",
             "link": "CS591-W1",
-            "paragraphText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-            "courseDuration": "Spring Semester"
+            "paragraphText": "This is a graduate-level course on multilingual natural language processing (NLP) that is research-oriented and geared towards extending natural language processing approaches to more languages in the world even those without large annotated data. The course will start off with instructor-led presentations that introduce students to NLP. The rest of the course will focus on students' presentations and discussions of state-of-the-art approaches for multilingual NLP or algorithms that are relevant to learning with few annotated data by (1) discussing related research papers, (2) students' ideas for extending these approaches, and (3) results of these ideas' implementations. Participants take turns as discussion leaders.",
+            "courseDuration": "Fall Semester"
       
         }
     ]

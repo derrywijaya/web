@@ -31,7 +31,7 @@
                             <div class="courses-overview">
                                 <div *ngFor="let Info of courseDetail.courseDesc;">                                    
                                     <h3>{{Info.title}}</h3>
-                                    <p>{{Info.paragraphText1}}</p>
+                                    <p [innerHTML]="Info.paragraphText1"></p>
                                     <br>
                                 </div>
                             </div>
