@@ -2,7 +2,7 @@
 
 <app-homethree-about></app-homethree-about>
 
-<app-homethree-mission *ngIf="publicationContent" [selectedPublication]="publicationContent" [pubList]='pubList'></app-homethree-mission>
+<app-homethree-mission id='publication' *ngIf="publicationContent" [selectedPublication]="publicationContent" [pubList]='pubList'></app-homethree-mission>
 
 <app-homethree-grants *ngIf="grantContent" [grantContent] ="grantContent" [grantList]="grantList"></app-homethree-grants>
 

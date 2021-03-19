@@ -12,13 +12,14 @@
         "instagramLink": "#",
         "instagramIcon": "bx bxl-instagram",
         "linkedinLink": "https://www.linkedin.com/in/isidoratourni/",
-        "linkedinIcon": "bx bxl-linkedin"
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "PhD Candidate"
     },
     {
         "img": "assets/img/photos/yusuf.jpeg",
         "title": "Yusuf Kocyigit",
         "webpagelink": "https://cs-people.bu.edu/kocyigit/",
-        "designation": "PhD Student (BU)",
+        "designation": "PhD Candidate (BU)",
         "facebookLink": "#",
         "facebookIcon": "bx bxl-facebook",
         "twitterLink": "#",
@@ -26,13 +27,14 @@
         "instagramLink": "#",
         "instagramIcon": "bx bxl-instagram",
         "linkedinLink": "https://www.linkedin.com/in/yusufkocyigit/?originalSubdomain=tr",
-        "linkedinIcon": "bx bxl-linkedin"
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "PhD Student"
     },
     {
         "img": "assets/img/photos/feyza.jpeg",
         "title": "Afra Feyza Akyurek",
         "webpagelink": "https://feyzaakyurek.github.io/",
-        "designation": "PhD Student (BU)",
+        "designation": "PhD Candidate (BU)",
         "facebookLink": "#",
         "facebookIcon": "bx bxl-facebook",
         "twitterLink": "#",
@@ -40,7 +42,8 @@
         "instagramLink": "#",
         "instagramIcon": "bx bxl-instagram",
         "linkedinLink": "https://www.linkedin.com/in/afrafeyzaakyurek/",
-        "linkedinIcon": "bx bxl-linkedin"
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "PhD Student"
     },
     {
         "img": "assets/img/photos/siyang.jpg",
@@ -54,7 +57,8 @@
         "instagramLink": "#",
         "instagramIcon": "bx bxl-instagram",
         "linkedinLink": "https://www.linkedin.com/in/siyang-li-920429129/",
-        "linkedinIcon": "bx bxl-linkedin"
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "Master Student"
     },
     {
         "img": "assets/img/photos/vibhu.jpg",
@@ -68,7 +72,8 @@
         "instagramLink": "#",
         "instagramIcon": "bx bxl-instagram",
         "linkedinLink": "https://www.linkedin.com/in/vibster97/",
-        "linkedinIcon": "bx bxl-linkedin"
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "Master Student"
     },
     {
         "img": "assets/img/photos/nikzad.jpeg",
@@ -82,7 +87,8 @@
         "instagramLink": "#",
         "instagramIcon": "bx bxl-instagram",
         "linkedinLink": "https://www.linkedin.com/in/nikzadkhani/",
-        "linkedinIcon": "bx bxl-linkedin"
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "Undergraduate Student"
     },
     {
         "img": "assets/img/photos/alex.jpeg",
@@ -96,7 +102,8 @@
         "instagramLink": "#",
         "instagramIcon": "bx bxl-instagram",
         "linkedinLink": "https://www.linkedin.com/in/alex-jones-901178127/",
-        "linkedinIcon": "bx bxl-linkedin"
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "Undergraduate Student"
     },
     {
         "img": "assets/img/photos/garry.jpeg",
@@ -110,7 +117,8 @@
         "instagramLink": "#",
         "instagramIcon": "bx bxl-instagram",
         "linkedinLink": "https://www.linkedin.com/in/gkuwanto/",
-        "linkedinIcon": "bx bxl-linkedin"
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "Undergraduate Student"
     },
     {
         "img": "assets/img/photos/taufiq.jpeg",
@@ -124,7 +132,8 @@
         "instagramLink": "#",
         "instagramIcon": "bx bxl-instagram",
         "linkedinLink": "https://www.linkedin.com/in/taufiq-husada-daryanto/",
-        "linkedinIcon": "bx bxl-linkedin"
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "Undergraduate Student"
     },
     {
         "img": "assets/img/photos/fabian.jpeg",
@@ -138,7 +147,8 @@
         "instagramLink": "#",
         "instagramIcon": "bx bxl-instagram",
         "linkedinLink": "https://www.linkedin.com/in/fabian-zhafransyah/",
-        "linkedinIcon": "bx bxl-linkedin"
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "Undergraduate Student"
     },
     {
         "img": "assets/img/photos/edward.jpg",
@@ -152,7 +162,23 @@
         "instagramLink": "#",
         "instagramIcon": "bx bxl-instagram",
         "linkedinLink": "https://www.linkedin.com/in/edward-edberg-halim-241014111/?originalSubdomain=id",
-        "linkedinIcon": "bx bxl-linkedin"
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "Undergraduate Student"
+    },
+    {
+        "img": "assets/img/photos/edward.jpg",
+        "title": "Edward Edgberg",
+        "webpagelink": "https://edward-edberg.github.io/",
+        "designation": "Undergraduate student (Surya University, GIK)",
+        "facebookLink": "#",
+        "facebookIcon": "bx bxl-facebook",
+        "twitterLink": "#",
+        "twitterIcon": "bx bxl-twitter",
+        "instagramLink": "#",
+        "instagramIcon": "bx bxl-instagram",
+        "linkedinLink": "https://www.linkedin.com/in/edward-edberg-halim-241014111/?originalSubdomain=id",
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "Alumni"
     }
 ]
 }

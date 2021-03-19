@@ -8,18 +8,51 @@ import { IScientistBoxContent, IContent, IPublicationList, IResearch, IPageTitle
 })
 export class TeamPageComponent implements OnInit {
 
-    @Input() singleScientistBox: IScientistBoxContent[] ;
+    @Input() singleScientistBox: IScientistBoxContent[];
+    public display: displayData[] = []
     constructor() { }
 
     ngOnInit(): void {
+        this.filterData();
     }
 
-    pageTitleArea: IPageTitle = 
+    pageTitleArea: IPageTitle =
         {
             title: 'Our Team',
-            subTitle:''
+            subTitle: ''
         }
-    
-    
 
+
+    filterData() {
+
+        console.log(this.singleScientistBox);
+
+        var flags = [], output = [], l = this.singleScientistBox.length, i;
+        for (i = 0; i < l; i++) {
+            if (flags[this.singleScientistBox[i].status]) continue;
+            flags[this.singleScientistBox[i].status] = true;
+            output.push(this.singleScientistBox[i].status);
+        }
+        
+
+        output.forEach(x => {
+            let pub = this.singleScientistBox.filter(k => k.status == x)
+            let head = {} as IContent;
+            head.title = "";
+            head.paragraphText1 = x;
+            //head.title = "";
+            let dis = {} as displayData;
+            dis.header = head;
+            dis.studentList = pub;
+            this.display.push(dis);
+
+        })
+    }
+
+}
+
+
+class displayData {
+    header: IContent;
+    studentList: Array<IScientistBoxContent>;
 }

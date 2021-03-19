@@ -9,10 +9,17 @@ import { IScientistBoxContent, IContent, IPublicationList, IResearch } from '../
 export class ResearchNewsframingComponent implements OnInit {
 
   @Input() inputData: IResearch;
+  public inData : IResearch =null;
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.inputData.publicationContent);
+    this.inData = this.inputData;
+    // setTimeout(() => {
+    //   //console.log('hide');
+    //   //this.showElement = false;
+    //   this.inData = this.inputData;
+    // }, 2000);
+    // console.log(this.inputData);
   }
 
 

@@ -89,6 +89,7 @@ export interface IScientistBoxContent {
   instagramIcon: string;
   linkedinLink: string;
   linkedinIcon: string;
+  status: string;
 }
 
 export interface IDetailsDesc {

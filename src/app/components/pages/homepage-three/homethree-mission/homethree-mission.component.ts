@@ -12,7 +12,7 @@ export class HomethreeMissionComponent implements OnInit {
 
     @Input() selectedPublication: IContent;
     @Input() pubList: IPublicationList[];
-    public display : displayData[] = []
+    public display: displayData[] = []
 
     constructor() { }
 
@@ -20,35 +20,37 @@ export class HomethreeMissionComponent implements OnInit {
         this.filterData();
     }
 
-    filterData()
-    {
-        var flags = [], output = [], l = this.pubList.length, i;
-            for( i=0; i<l; i++) {
-            if( flags[this.pubList[i].field]) continue;
-            flags[this.pubList[i].field] = true;
-            output.push(this.pubList[i].field);
+    filterData() {
+        if (this.pubList) {
+            var flags = [], output = [], l = this.pubList.length, i;
+            for (i = 0; i < l; i++) {
+                if (flags[this.pubList[i].field]) continue;
+                flags[this.pubList[i].field] = true;
+                output.push(this.pubList[i].field);
+            }
+            //console.log(output);
+
+            output.forEach(x => {
+                let pub = this.pubList.filter(k => k.field == x)
+                let head = {} as IContent;
+                head.title = "";
+                head.paragraphText1 = x;
+                //head.title = "";
+                let dis = {} as displayData;
+                dis.header = head;
+                dis.publications = pub;
+                this.display.push(dis);
+
+            })
         }
-        console.log(output);
-
-        output.forEach(x =>{
-            let pub = this.pubList.filter(k => k.field == x)
-            let head = {} as IContent;
-            head.title = "";
-            head.paragraphText1 = x;
-            //head.title = "";
-            let dis = {} as displayData;
-            dis.header = head;
-            dis.publications = pub;
-            this.display.push(dis);
-
-        })
     }
 
     
 
+
 }
 
-class displayData{
+class displayData {
     header: IContent;
     publications: Array<IPublicationList>;
-  }
+}

@@ -17,33 +17,40 @@ export class ResearchsComponent implements OnInit {
     private http: HttpClient) { }
 
   ngOnInit(): void {
-    this.researchData = {} as IResearch;
+    //this.researchData = {} as IResearch;
     this.insertData();
   }
 
   insertData() {
-
     this.route.params.subscribe({
       next: (param: any) => {
         this.getJSONData().subscribe(
           {
-            next: (result) => {
-              let dada = {} as IResearch;
-              dada = result['framingdata'];
-              console.log(dada.pageTitleArea)
+            next: (result) => {             
+                let dada = {} as IResearch;
+                dada = result['framingdata'];
+                //console.log(dada.pageTitleArea)
+                
+                this.researchData = {} as IResearch;
 
-              switch (param['id']) {
-                case '1':
-                  this.researchData = result['framingdata'];
-                  //this.setFramingData();
-                  break;
-                case '2':
-                  this.researchData = result['translationdata'];                  
-                  break;
-                case '3':
-                  this.researchData = result['fewshotdata'];
-                  break;
-              }
+                switch (param['id']) {
+                  case '1':
+                    this.researchData = result['framingdata'];
+                    //console.log(this.researchData)
+                    //this.setFramingData();
+                   
+                    break;
+                  case '2':
+                    this.researchData = result['translationdata'];
+                   
+                    console.log(this.researchData)
+                    break;
+                  case '3':
+                    this.researchData = result['fewshotdata'];
+                    
+                    console.log(this.researchData)
+                    break;
+                }
             }
           }
 
@@ -58,7 +65,7 @@ export class ResearchsComponent implements OnInit {
     return this.http.get("./assets/data/pagedata.json");
   }
 
-  
+
 
 
 

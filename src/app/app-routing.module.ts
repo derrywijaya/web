@@ -22,6 +22,8 @@ import { CoursesPageComponent } from './components/pages/courses-page/courses-pa
 import { CoursesDetailsPageComponent } from './components/pages/courses-details-page/courses-details-page.component';
 //import {CourseDetailsTUNLComponent} from './components/pages/course-details-tunl/course-details-tunl.component'
 import {ResearchsComponent} from './components/pages/researchs/researchs.component'
+import { StudentsComponent } from './components/pages/students/students.component';
+import { PublicationsComponent } from './components/pages/publications/publications.component';
 // import { ResearchTranslationComponent } from './components/pages/research-translation/research-translation.component';
 // import { ResearchOneshotComponent } from './components/pages/research-oneshot/research-oneshot.component';
 
@@ -39,6 +41,8 @@ const routes: Routes = [
     {path: 'courses', component: CoursesPageComponent},
     {path: 'researchs/:id', component: ResearchsComponent},
     {path: 'courses-details/:id', component: CoursesDetailsPageComponent},
+    {path: 'students', component: StudentsComponent},
+    {path: 'publications', component: PublicationsComponent},
     //{path: 'courses-details-tunl', component: CourseDetailsTUNLComponent},
     // {path: 'events', component: EventsPageComponent},
     // {path: 'events-details', component: EventsDetailsPageComponent},

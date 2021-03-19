@@ -84,6 +84,8 @@ import { HomethreeScientistsComponent } from './components/pages/homepage-three/
 // import { ResearchTranslationComponent } from './components/pages/research-translation/research-translation.component';
 // import { ResearchOneshotComponent } from './components/pages/research-oneshot/research-oneshot.component';
 import { HttpClientModule } from '@angular/common/http';
+import { StudentsComponent } from './components/pages/students/students.component';
+import { PublicationsComponent } from './components/pages/publications/publications.component';
 
 @NgModule({
   declarations: [
@@ -166,6 +168,8 @@ import { HttpClientModule } from '@angular/common/http';
     // TeamMembersComponent,
     HomethreeGrantsComponent,
     HomethreeScientistsComponent,
+    StudentsComponent,
+    PublicationsComponent,
     // ResearchTranslationComponent,
     // ResearchOneshotComponent,
   ],

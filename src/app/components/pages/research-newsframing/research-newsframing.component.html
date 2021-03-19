@@ -3,7 +3,7 @@
 <section class="case-studies-details-area ptb-100">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-md-12 page-title-content" *ngFor="let pageTitle of inputData.pageTitleArea;">
+            <div class="col-lg-8 col-md-12 page-title-content" *ngFor="let pageTitle of inData.pageTitleArea;">
                 <h2>{{pageTitle.title}}</h2>
                 <p>{{pageTitle.subTitle}}</p>
             </div>
@@ -15,7 +15,7 @@
                     <img [src]="Image.img" alt="image">
                 </div> -->
 
-                <div class="case-studies-details-desc" *ngFor="let DetailsDesc of inputData.caseStudiesDetailsDesc;">
+                <div class="case-studies-details-desc" *ngFor="let DetailsDesc of inData.caseStudiesDetailsDesc;">
                     <span class="sub-title">{{DetailsDesc.subTitle}}</span>
                     <h3>{{DetailsDesc.title1}}</h3>
                     <p>{{DetailsDesc.paragraph1}}</p>
@@ -33,7 +33,7 @@
                 <div class="case-studies-sidebar-sticky">
                     <div class="case-studies-details-info">
                         <ul>
-                            <li *ngFor="let Info of inputData.caseStudiesDetailsInfo;">
+                            <li *ngFor="let Info of inData.caseStudiesDetailsInfo;">
                                 <div class="icon">
                                     <i class='{{Info.icon}}'></i>
                                 </div>
@@ -42,7 +42,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div *ngIf="inputData.externalLink" class="case-studies-details-info">
+                    <div *ngIf="inData.externalLink" class="case-studies-details-info">
                         <h4>External links</h4>
                         <ul>
                             <li *ngFor="let lnk of inputData.externalLink;">
@@ -59,8 +59,8 @@
             </div>
         </div>
     </div>
-    <app-team-page *ngIf="inputData" [singleScientistBox] = 'inputData.teamMembers'></app-team-page>
-    <app-homethree-mission *ngIf="inputData.publicationContent" [selectedPublication]="inputData.publicationContent" [pubList]='inputData.pubList'></app-homethree-mission>
+    <app-team-page *ngIf="inData.teamMembers" [singleScientistBox] = 'inputData.teamMembers'></app-team-page>
+    <app-homethree-mission *ngIf="inData.publicationContent" [selectedPublication]="inputData.publicationContent" [pubList]='inputData.pubList'></app-homethree-mission>
     
 </section>
 
