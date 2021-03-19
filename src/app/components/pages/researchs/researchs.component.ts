@@ -29,7 +29,7 @@ export class ResearchsComponent implements OnInit {
             next: (result) => {             
                 let dada = {} as IResearch;
                 dada = result['framingdata'];
-                //console.log(dada.pageTitleArea)
+                console.log(param['id'])
                 
                 this.researchData = {} as IResearch;
 
