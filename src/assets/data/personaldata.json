@@ -1,7 +1,8 @@
+
 {
     "publicationContent":{
-        "title": "My selected publications",
-        "paragraphText1": "Below is the list of my latest publications.",
+        "title": "Selected publications",
+        "paragraphText1": "Machine Translation",
         "paragraphText2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
         "defaultBtnIcon": "flaticon-right",
         "defaultBtnText": "Google Scholar",
@@ -10,40 +11,136 @@
     "publicationList":[
         {
             "icon": "flaticon-idea",
-            "title": "LAL: Linguistically Aware Learning for Scene Text Recognition",
-            "text": "Yi Zheng, Wenda Qin, Derry Wijaya, Margrit Betke. Proc. of ACM Multimedia 2020 (to appear)",
-            "link": "mmfp0166-zhengA.pdf"
+            "title": "Cultural and Geographical Influences on Image Translatability of Words across Languages",
+            "text": "Nikzad Khani, Isidora Chara Tourni, Mohammad Sadegh Rasooli, Chris Callison-Burch, Derry Wijaya. Proc. of NAACL 2021 (to appear)",
+            "link": "",
+            "field": "Machine Translation"
         },
         {
             "icon": "flaticon-idea",
-            "title": "LAL: Linguistically Aware Learning for Scene Text Recognition",
-            "text": "Yi Zheng, Wenda Qin, Derry Wijaya, Margrit Betke. Proc. of ACM Multimedia 2020 (to appear)",
-            "link": "mmfp0166-zhengA.pdf"
+            "title": "Learning Translations via Images with a Massively Multilingual Image Dataset",
+            "text": "John Hewitt, Daphne Ippolito, Brendan Callahan, ,Reno Kriz, Derry Wijaya, Chris Callison-Burch. Proc. of ACL 2018",
+            "link": "https://www.aclweb.org/anthology/P18-1239/",
+            "field": "Machine Translation"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "Learning Translations via Matrix Completion",
+            "text": "Derry Wijaya, Brendan Callahan, John Hewitt, Jie Gao, Xiao Ling, Marianna Apidianaki, Chris Callison-Burch. Proc. of EMNLP 2017",
+            "link": "https://www.aclweb.org/anthology/D17-1152/",
+            "field": "Machine Translation"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "What makes gun violence a (less) prominent issue? A computational analysis of compelling arguments and selective agenda setting",
+            "text": "Lei Guo, Kate Mays, Yiyan Zhang, Derry Wijaya, Margrit Betke. Mass Communication and Society, 2021",
+            "link": "https://www.tandfonline.com/doi/abs/10.1080/15205436.2021.1898644",
+            "field": "News Framing"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "Multi-label and Multilingual News Framing Analysis",
+            "text": "Afra Feyza Akyürek, Lei Guo, Randa Elanwar, Margrit Betke, Prakash Ishwar, Derry Wijaya. Proc. of ACL 2020",
+            "link": "https://www.aclweb.org/anthology/2020.acl-main.763/",
+            "field":"News Framing"
+        },        
+        {
+            "icon": "flaticon-idea",
+            "title": "Detecting Frames in News Headlines and Its Application to Analyzing News Framing Trends Surrounding U.S. Gun Violence",
+            "text": "Siyi Liu, Lei Guo, Kate Mays, Margrit Betke, Derry Wijaya. Proc. of CoNLL 2019",
+            "link": "https://www.aclweb.org/anthology/K19-1047/",
+            "field": "News Framing"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "Mapping Verbs In Different Languages to Knowledge Base Relations using Web Text as Interlingua",
+            "text": "Derry Wijaya, Tom Mitchell. Proc. of NAACL 2016",
+            "link": "https://www.aclweb.org/anthology/N16-1096.pdf",
+            "field": "Lexical Semantics"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "“A Spousal Relation Begins with a Deletion of engage and Ends with an Addition of divorce”: Learning State Changing Verbs from Wikipedia Revision History",
+            "text": "Derry Wijaya, Ndapandula Nakashole, Tom Mitchell. Proc. of EMNLP 2015",
+            "link": "https://www.aclweb.org/anthology/D15-1059/",
+            "field": "Lexical Semantics"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "VerbKB: A Knowledge Base of Verbs for Natural Language Understanding",
+            "text": "Derry Wijaya. Ph.D. Dissertation, 2016",
+            "link": "https://www.lti.cs.cmu.edu/sites/default/files/wijaya,%20derry%20-%20CMU-LTI-16-016%20-%202016.pdf",
+            "field": "Lexical Semantics"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "Understanding semantic change of words over centuries",
+            "text": "Derry Wijaya, Reyyan Yeniterzi. Proc. of the workshop on DETecting and Exploiting Cultural diversiTy on the social web, at CIKM 2011",
+            "link": "https://dl.acm.org/doi/abs/10.1145/2064448.2064475",
+            "field": "Lexical Semantics"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "JUUL the heartbreaker: Twitter analysis of cardiovascular health perceptions of vaping",
+            "text": "Traci Hong, Jiaxi Wu, Derry Wijaya, Ziming Xuan, Jessica L Fetterman. Tobacco induced diseases, Volume 19, 2021",
+            "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7791365/",
+            "field": "Public Health"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "Discussions of miscarriage and preterm births on Twitter",
+            "text": "Nina Cesare, Olubusola Oladeji, Kadija Ferryman, Derry Wijaya, Karen D Hendricks‐Muñoz, Alyssa Ward, Elaine O Nsoesie. Paediatric and perinatal epidemiology, 2020",
+            "link": "https://onlinelibrary.wiley.com/doi/full/10.1111/ppe.12622",
+            "field": "Public Health"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "Detecting reports of unsafe foods in consumer product reviews",
+            "text": "Adyasha Maharana, Kunlin Cai, Joseph Hellerstein, Yulin Hswen, Michael Munsell, Valentina Staneva, Miki Verma, Cynthia Vint, Derry Wijaya, Elaine O Nsoesie. JAMIA Open, 2019",
+            "link": "https://academic.oup.com/jamiaopen/article/2/3/330/5543660?login=true",
+            "field": "Public Health"
         }
     ],
     "grantContent":{
         "title": "Grants",
-        "paragraphText1": "Grants received."
-       
+        "paragraphText1": "The works conducted by the Language LeArning Machine (LLAMA) lab at Boston University are funded by:"
     },
     "grantList":[
         {
             "icon":"flaticon-idea",
-            "title": "Big Data",
-            "text": "News Framing research",
-            "link": "mmfp0166-zhengA.pdf",
-            "period": "2019-2022",
+            "title": "BIGDATA: IA: Multiplatform, Multilingual, and Multimodal Tools for Analyzing Public Communication in over 100 Languages",
+            "text": "Margrit Betke (BU) - PI, Derry Wijaya, Lei Guo, Prakash Ishwar",
+            "link": "",
+            "period": "2018-2022",
             "amount": 1000000,
             "sponsor": "NSF"
         },
         {
             "icon":"flaticon-idea",
-            "title": "Big Data",
-            "text": "News Framing research",
-            "link": "mmfp0166-zhengA.pdf",
+            "title": "LwLL: LEARN: Label-Efficient Active Resilient Networks",
+            "text": "Kate Saenko (BU) - PI, Derry Wijaya",
+            "link": "",
             "period": "2019-2022",
-            "amount": 1000000,
-            "sponsor": "NSF"
+            "amount": 699255,
+            "sponsor": "DARPA"
+        },
+        {
+            "icon":"flaticon-idea",
+            "title": "Semi-supervised Learning of Multimodal Representations",
+            "text": "Chris Callison-Burch (UPenn) - PI, Derry Wijaya",
+            "link": "",
+            "period": "2019-2020",
+            "amount": 100000,
+            "sponsor": "DARPA"
+        },
+        {
+            "icon":"flaticon-idea",
+            "title": "ExploreCSR: Support and Promote Undergraduate Research for Women",
+            "text": "Derry Wijaya",
+            "link": "",
+            "period": "2019-2021",
+            "amount": 18000,
+            "sponsor": "Google"
         }
     ]
 }

@@ -1,7 +1,7 @@
 {
     "publicationContent":{
-        "title": "My selected publications",
-        "paragraphText1": "Below is the list of my latest publications.",
+        "title": "Selected publications",
+        "paragraphText1": "",
         "paragraphText2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
         "defaultBtnIcon": "flaticon-right",
         "defaultBtnText": "Google Scholar",

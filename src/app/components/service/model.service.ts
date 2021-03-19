@@ -103,6 +103,9 @@ export interface IDetailsDesc {
   paragraph4: string;
 }
 
+
+
+
 export interface  IContent {
   title : string;
   paragraphText1 : string;
@@ -116,7 +119,10 @@ export interface  IPublicationList {
   title : string;
   text?: string;
   link?: string;
+  field?:string;
 }
+
+
 
 export interface  IGrants {
   icon : string;
