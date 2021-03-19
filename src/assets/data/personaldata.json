@@ -108,7 +108,7 @@
     "grantList":[
         {
             "icon":"flaticon-idea",
-            "title": "BIGDATA: IA: Multiplatform, Multilingual, and Multimodal Tools for Analyzing Public Communication in over 100 Languages",
+            "title": "BIGDATA: IA: Multiplatform, Multilingual, and Multimodal Tools for Analyzing Public Communication in over 100 Languages (News Framing)",
             "text": "Margrit Betke (BU) - PI, Derry Wijaya, Lei Guo, Prakash Ishwar",
             "link": "",
             "period": "2018-2022",
@@ -117,7 +117,7 @@
         },
         {
             "icon":"flaticon-idea",
-            "title": "LwLL: LEARN: Label-Efficient Active Resilient Networks",
+            "title": "LwLL: LEARN: Label-Efficient Active Resilient Networks (Machine Translation)",
             "text": "Kate Saenko (BU) - PI, Derry Wijaya",
             "link": "",
             "period": "2019-2022",
@@ -126,7 +126,7 @@
         },
         {
             "icon":"flaticon-idea",
-            "title": "Semi-supervised Learning of Multimodal Representations",
+            "title": "Semi-supervised Learning of Multimodal Representations (Machine Translation)",
             "text": "Chris Callison-Burch (UPenn) - PI, Derry Wijaya",
             "link": "",
             "period": "2019-2020",
