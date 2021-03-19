@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { IScientistBoxContent, IContent, IPublicationList, IPageTitle, IResearch, IInfo, IDetailsDesc } from '../../service/model.service';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 
 
@@ -16,11 +16,15 @@ export class ResearchsComponent implements OnInit {
   constructor(private route: ActivatedRoute,
     private router: Router,
     private http: HttpClient) { 
+
+      this.router.routeReuseStrategy.shouldReuseRoute = () => false;
       
-      // this.route.url.subscribe(()=> {
-      //   this.insertData();
-  
-      // })
+      // this.router.events.subscribe((e: any) => {
+      //   // If it is a NavigationEnd event re-initalise the component
+      //   if (e instanceof NavigationEnd) {
+      //     this.insertData();
+      //   }
+      // });
     }
 
   ngOnInit(): void {

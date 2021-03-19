@@ -39,7 +39,7 @@ const routes: Routes = [
     // {path: 'services-details', component: ServicesDetailsPageComponent},
     // {path: 'gallery', component: GalleryPageComponent},
     {path: 'courses', component: CoursesPageComponent},
-    {path: 'researchs/:id', component: ResearchsComponent},
+    {path: 'researchs/:id', component: ResearchsComponent, runGuardsAndResolvers: 'always',},
     {path: 'courses-details/:id', component: CoursesDetailsPageComponent},
     {path: 'students', component: StudentsComponent},
     {path: 'publications', component: PublicationsComponent},
@@ -59,7 +59,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-    imports: [RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy', onSameUrlNavigation: 'reload' })],
+    imports: [RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy', onSameUrlNavigation: 'reload' }),],
     exports: [RouterModule]
 })
 export class AppRoutingModule { }

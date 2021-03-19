@@ -14,6 +14,7 @@ export class ResearchNewsframingComponent implements OnInit {
 
   ngOnInit(): void {
     this.inData = this.inputData;
+    console.log(this.inData);
     // setTimeout(() => {
     //   //console.log('hide');
     //   //this.showElement = false;
