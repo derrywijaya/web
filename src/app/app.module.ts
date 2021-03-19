@@ -176,7 +176,8 @@ import { PublicationsComponent } from './components/pages/publications/publicati
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

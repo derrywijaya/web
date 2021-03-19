@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { IScientistBoxContent, IContent, IPublicationList, IPageTitle, IResearch, IInfo, IDetailsDesc } from '../../service/model.service';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 
 
@@ -14,26 +14,47 @@ export class ResearchsComponent implements OnInit {
 
   public researchData: IResearch = null;
   constructor(private route: ActivatedRoute,
-    private http: HttpClient) { }
+    private router: Router,
+    private http: HttpClient) { 
+      
+      // this.route.url.subscribe(()=> {
+      //   this.insertData();
+  
+      // })
+    }
 
   ngOnInit(): void {
-    //this.researchData = {} as IResearch;
     this.insertData();
+    //this.researchData = {} as IResearch;
+    // this.route.url.subscribe(()=> {
+    //   this.insertData();
+
+    // })
+    
   }
 
   insertData() {
+    
     this.route.params.subscribe({
       next: (param: any) => {
+
+        const id = param['id'];
+        
+        console.log(id)
+
         this.getJSONData().subscribe(
           {
             next: (result) => {             
-                let dada = {} as IResearch;
-                dada = result['framingdata'];
-                console.log(param['id'])
+                // let dada = {} as IResearch;
+                // dada = result['framingdata'];
+                //console.log(param['id']);
+                //this.router.onSameUrlNavigation = 'reload';
                 
                 this.researchData = {} as IResearch;
+               
+                //this.service.get(term).then(result => { console.log(result); });
 
-                switch (param['id']) {
+                switch (id) {
                   case '1':
                     this.researchData = result['framingdata'];
                     //console.log(this.researchData)
