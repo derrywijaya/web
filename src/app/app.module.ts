@@ -86,6 +86,7 @@ import { HomethreeScientistsComponent } from './components/pages/homepage-three/
 import { HttpClientModule } from '@angular/common/http';
 import { StudentsComponent } from './components/pages/students/students.component';
 import { PublicationsComponent } from './components/pages/publications/publications.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -177,6 +178,7 @@ import { PublicationsComponent } from './components/pages/publications/publicati
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    CommonModule 
     
   ],
   providers: [],

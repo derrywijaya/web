@@ -12,7 +12,7 @@ import { HomepageThreeComponent } from './components/pages/homepage-three/homepa
 // import { TeamPageComponent } from './components/pages/team-page/team-page.component';
 // import { ServicesPageComponent } from './components/pages/services-page/services-page.component';
 // import { ServicesDetailsPageComponent } from './components/pages/services-details-page/services-details-page.component';
-//import { ContactPageComponent } from './components/pages/contact-page/contact-page.component';
+import { ContactPageComponent } from './components/pages/contact-page/contact-page.component';
 //import { BlogPageComponent } from './components/pages/blog-page/blog-page.component';
 //import { BlogDetailsPageComponent } from './components/pages/blog-details-page/blog-details-page.component';
 //import { CaseStudiesDetailsPageComponent } from './components/pages/case-studies-details-page/case-studies-details-page.component';
@@ -52,7 +52,7 @@ const routes: Routes = [
     // {path: 'faq', component: FaqPageComponent},
     //{path: 'blog', component: BlogPageComponent},
     //{path: 'blog-details', component: BlogDetailsPageComponent},
-    //{path: 'contact', component: ContactPageComponent},
+    {path: 'contact', component: ContactPageComponent},
     // {path: 'translation', component: ResearchTranslationComponent},
     // {path: 'fewshot', component: ResearchOneshotComponent},
     {path: '**', component: ErrorPageComponent},
