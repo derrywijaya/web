@@ -59,8 +59,8 @@
             </div>
         </div>
     </div>
-    <app-homethree-mission *ngIf="inData.publicationContent" [selectedPublication]="inputData.publicationContent" [pubList]='inputData.pubList'></app-homethree-mission>
-    <app-team-page *ngIf="inData.teamMembers" [singleScientistBox] = 'inputData.teamMembers'></app-team-page>
+    <app-homethree-mission *ngIf="inData.pubList?.length > 0" [selectedPublication]="inputData.publicationContent" [pubList]='inputData.pubList'></app-homethree-mission>
+    <app-team-page *ngIf="inData.teamMembers?.length > 0" [singleScientistBox] = 'inputData.teamMembers'></app-team-page>
    
     
 </section>
