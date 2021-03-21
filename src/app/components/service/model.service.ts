@@ -78,7 +78,7 @@ export interface ICurriculum {
 
 
 export interface IScientistBoxContent {
-  img: string;
+  img?: string;
   title: string;
   designation: string;
   facebookLink: string;

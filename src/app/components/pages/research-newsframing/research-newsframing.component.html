@@ -59,8 +59,9 @@
             </div>
         </div>
     </div>
-    <app-team-page *ngIf="inData.teamMembers" [singleScientistBox] = 'inputData.teamMembers'></app-team-page>
     <app-homethree-mission *ngIf="inData.publicationContent" [selectedPublication]="inputData.publicationContent" [pubList]='inputData.pubList'></app-homethree-mission>
+    <app-team-page *ngIf="inData.teamMembers" [singleScientistBox] = 'inputData.teamMembers'></app-team-page>
+   
     
 </section>
 

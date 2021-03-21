@@ -19,7 +19,7 @@ export class TeamPageComponent implements OnInit {
     pageTitleArea: IPageTitle =
         {
             title: 'Our Team',
-            subTitle: ''
+            subTitle: 'Members of the Language LeArning MAchine (LLAMA) group at Boston University'
         }
 
 
