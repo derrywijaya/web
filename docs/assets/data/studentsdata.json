@@ -19,7 +19,7 @@
         "img": "assets/img/photos/yusuf.jpeg",
         "title": "Yusuf Kocyigit",
         "webpagelink": "https://cs-people.bu.edu/kocyigit/",
-        "designation": "PhD Candidate (BU)",
+        "designation": "1st year PhD Student (BU)",
         "facebookLink": "#",
         "facebookIcon": "bx bxl-facebook",
         "twitterLink": "#",
@@ -34,7 +34,7 @@
         "img": "assets/img/photos/feyza.jpeg",
         "title": "Afra Feyza Akyurek",
         "webpagelink": "https://feyzaakyurek.github.io/",
-        "designation": "PhD Candidate (BU)",
+        "designation": "2nd year PhD student (BU)",
         "facebookLink": "#",
         "facebookIcon": "bx bxl-facebook",
         "twitterLink": "#",
@@ -64,7 +64,7 @@
         "img": "assets/img/photos/vibhu.jpg",
         "title": "Vibhu Bhatia",
         "webpagelink": "https://vibss2397.github.io/",
-        "designation": "M.S. in Computer Science (BU)",
+        "designation": "M.S. in CS Student (BU)",
         "facebookLink": "#",
         "facebookIcon": "bx bxl-facebook",
         "twitterLink": "#",
@@ -151,10 +151,10 @@
         "status": "Undergraduate Student"
     },
     {
-        "img": "assets/img/photos/edward.jpg",
+        
         "title": "Edward Edgberg",
         "webpagelink": "https://edward-edberg.github.io/",
-        "designation": "Undergraduate student (Surya University, GIK)",
+        "designation": "Undergraduate student (GIK)",
         "facebookLink": "#",
         "facebookIcon": "bx bxl-facebook",
         "twitterLink": "#",
@@ -163,20 +163,156 @@
         "instagramIcon": "bx bxl-instagram",
         "linkedinLink": "https://www.linkedin.com/in/edward-edberg-halim-241014111/?originalSubdomain=id",
         "linkedinIcon": "bx bxl-linkedin",
-        "status": "Undergraduate Student"
+        "status": "Alumni"
     },
     {
-        "img": "assets/img/photos/edward.jpg",
-        "title": "Edward Edgberg",
-        "webpagelink": "https://edward-edberg.github.io/",
-        "designation": "Undergraduate student (Surya University, GIK)",
+        
+        "title": "Wenxing Liu",
+        "webpagelink": "https://www.linkedin.com/in/cs-wenxingliu/",
+        "designation": "M.S. in Computer Science (BU)",
         "facebookLink": "#",
         "facebookIcon": "bx bxl-facebook",
         "twitterLink": "#",
         "twitterIcon": "bx bxl-twitter",
         "instagramLink": "#",
         "instagramIcon": "bx bxl-instagram",
-        "linkedinLink": "https://www.linkedin.com/in/edward-edberg-halim-241014111/?originalSubdomain=id",
+        "linkedinLink": "https://www.linkedin.com/in/cs-wenxingliu/",
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "Alumni"
+    },
+    {
+        
+        "title": "Shawn Lin",
+        "webpagelink": "https://www.linkedin.com/in/shawn3298317lin/?locale=en_US",
+        "designation": "M.S. in Computer Science (BU)",
+        "facebookLink": "#",
+        "facebookIcon": "bx bxl-facebook",
+        "twitterLink": "#",
+        "twitterIcon": "bx bxl-twitter",
+        "instagramLink": "#",
+        "instagramIcon": "bx bxl-instagram",
+        "linkedinLink": "https://www.linkedin.com/in/shawn3298317lin/?locale=en_US",
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "Alumni"
+    },
+    {
+        
+        "title": "Shijie Zhao",
+        "webpagelink": "https://www.linkedin.com/in/shijie-zhao/",
+        "designation": "M.S. in Computer Science (BU)",
+        "facebookLink": "#",
+        "facebookIcon": "bx bxl-facebook",
+        "twitterLink": "#",
+        "twitterIcon": "bx bxl-twitter",
+        "instagramLink": "#",
+        "instagramIcon": "bx bxl-instagram",
+        "linkedinLink": "https://www.linkedin.com/in/shijie-zhao/",
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "Alumni"
+    },
+    {
+        
+        "title": "Qiren Sun",
+        "webpagelink": "https://www.linkedin.com/in/qiren-sun-4a1910190/",
+        "designation": "M.S. in Computer Science (BU)",
+        "facebookLink": "#",
+        "facebookIcon": "bx bxl-facebook",
+        "twitterLink": "#",
+        "twitterIcon": "bx bxl-twitter",
+        "instagramLink": "#",
+        "instagramIcon": "bx bxl-instagram",
+        "linkedinLink": "https://www.linkedin.com/in/qiren-sun-4a1910190/",
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "Alumni"
+    },
+    {
+        
+        "title": "Hengchang Hu",
+        "webpagelink": "https://www.linkedin.com/in/hengchang-hu-5323201a7/",
+        "designation": "M.A. in Statistics (BU)",
+        "facebookLink": "#",
+        "facebookIcon": "bx bxl-facebook",
+        "twitterLink": "#",
+        "twitterIcon": "bx bxl-twitter",
+        "instagramLink": "#",
+        "instagramIcon": "bx bxl-instagram",
+        "linkedinLink": "https://www.linkedin.com/in/hengchang-hu-5323201a7/",
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "Alumni"
+    },
+    {
+        
+        "title": "Ziang Leng",
+        "webpagelink": "https://www.linkedin.com/in/ziang-leng-855900123/",
+        "designation": "B.S./M.S. in Computer Science (BU)",
+        "facebookLink": "#",
+        "facebookIcon": "bx bxl-facebook",
+        "twitterLink": "#",
+        "twitterIcon": "bx bxl-twitter",
+        "instagramLink": "#",
+        "instagramIcon": "bx bxl-instagram",
+        "linkedinLink": "https://www.linkedin.com/in/ziang-leng-855900123/",
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "Alumni"
+    },
+
+    {
+        
+        "title": "Siyi Liu (now at UPenn)",
+        "webpagelink": "",
+        "designation": "B.S./M.S. in Computer Science (BU)",
+        "facebookLink": "#",
+        "facebookIcon": "bx bxl-facebook",
+        "twitterLink": "#",
+        "twitterIcon": "bx bxl-twitter",
+        "instagramLink": "#",
+        "instagramIcon": "bx bxl-instagram",
+        "linkedinLink": "",
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "Alumni"
+    },
+    {
+        
+        "title": "Kunlin Cai (now at UCSD)",
+        "webpagelink": "https://kunlincai.com/",
+        "designation": "B.S./M.S. in Computer Science (BU)",
+        "facebookLink": "#",
+        "facebookIcon": "bx bxl-facebook",
+        "twitterLink": "#",
+        "twitterIcon": "bx bxl-twitter",
+        "instagramLink": "#",
+        "instagramIcon": "bx bxl-instagram",
+        "linkedinLink": "https://www.linkedin.com/in/kunlin-cai-b85a6216a/",
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "Alumni"
+    },
+    {
+        
+        "title": "Jorge Nario (now at Google)",
+        "webpagelink": "https://www.linkedin.com/in/jorge-nario/",
+        "designation": "Bachelor's Degree in Computer Science (BU)",
+        "facebookLink": "#",
+        "facebookIcon": "bx bxl-facebook",
+        "twitterLink": "#",
+        "twitterIcon": "bx bxl-twitter",
+        "instagramLink": "#",
+        "instagramIcon": "bx bxl-instagram",
+        "linkedinLink": "https://www.linkedin.com/in/jorge-nario/",
+        "linkedinIcon": "bx bxl-linkedin",
+        "status": "Alumni"
+    },
+    {
+        
+        "title": "Alex Duchnowski (now at Brown)",
+        "webpagelink": "https://www.linkedin.com/in/alex-duchnowski-3b056518b/",
+        "designation": "High School (BU Academy)",
+        "facebookLink": "#",
+        "facebookIcon": "bx bxl-facebook",
+        "twitterLink": "#",
+        "twitterIcon": "bx bxl-twitter",
+        "instagramLink": "#",
+        "instagramIcon": "bx bxl-instagram",
+        "linkedinLink": "https://www.linkedin.com/in/alex-duchnowski-3b056518b/",
         "linkedinIcon": "bx bxl-linkedin",
         "status": "Alumni"
     }

@@ -11,6 +11,27 @@
     "publicationList":[
         {
             "icon": "flaticon-idea",
+            "title": "What makes gun violence a (less) prominent issue? A computational analysis of compelling arguments and selective agenda setting",
+            "text": "Lei Guo, Kate Mays, Yiyan Zhang, Derry Wijaya, Margrit Betke. Mass Communication and Society, 2021",
+            "link": "https://www.tandfonline.com/doi/abs/10.1080/15205436.2021.1898644",
+            "field": "News Framing"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "Multi-label and Multilingual News Framing Analysis",
+            "text": "Afra Feyza Akyürek, Lei Guo, Randa Elanwar, Margrit Betke, Prakash Ishwar, Derry Wijaya. Proc. of ACL 2020",
+            "link": "https://www.aclweb.org/anthology/2020.acl-main.763/",
+            "field":"News Framing"
+        },        
+        {
+            "icon": "flaticon-idea",
+            "title": "Detecting Frames in News Headlines and Its Application to Analyzing News Framing Trends Surrounding U.S. Gun Violence",
+            "text": "Siyi Liu, Lei Guo, Kate Mays, Margrit Betke, Derry Wijaya. Proc. of CoNLL 2019",
+            "link": "https://www.aclweb.org/anthology/K19-1047/",
+            "field": "News Framing"
+        },
+        {
+            "icon": "flaticon-idea",
             "title": "Cultural and Geographical Influences on Image Translatability of Words across Languages",
             "text": "Nikzad Khani, Isidora Chara Tourni, Mohammad Sadegh Rasooli, Chris Callison-Burch, Derry Wijaya. Proc. of NAACL 2021 (to appear)",
             "link": "",
@@ -32,24 +53,24 @@
         },
         {
             "icon": "flaticon-idea",
-            "title": "What makes gun violence a (less) prominent issue? A computational analysis of compelling arguments and selective agenda setting",
-            "text": "Lei Guo, Kate Mays, Yiyan Zhang, Derry Wijaya, Margrit Betke. Mass Communication and Society, 2021",
-            "link": "https://www.tandfonline.com/doi/abs/10.1080/15205436.2021.1898644",
-            "field": "News Framing"
+            "title": "JUUL the heartbreaker: Twitter analysis of cardiovascular health perceptions of vaping",
+            "text": "Traci Hong, Jiaxi Wu, Derry Wijaya, Ziming Xuan, Jessica L Fetterman. Tobacco induced diseases, Volume 19, 2021",
+            "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7791365/",
+            "field": "Public Health"
         },
         {
             "icon": "flaticon-idea",
-            "title": "Multi-label and Multilingual News Framing Analysis",
-            "text": "Afra Feyza Akyürek, Lei Guo, Randa Elanwar, Margrit Betke, Prakash Ishwar, Derry Wijaya. Proc. of ACL 2020",
-            "link": "https://www.aclweb.org/anthology/2020.acl-main.763/",
-            "field":"News Framing"
-        },        
+            "title": "Discussions of miscarriage and preterm births on Twitter",
+            "text": "Nina Cesare, Olubusola Oladeji, Kadija Ferryman, Derry Wijaya, Karen D Hendricks‐Muñoz, Alyssa Ward, Elaine O Nsoesie. Paediatric and perinatal epidemiology, 2020",
+            "link": "https://onlinelibrary.wiley.com/doi/full/10.1111/ppe.12622",
+            "field": "Public Health"
+        },
         {
             "icon": "flaticon-idea",
-            "title": "Detecting Frames in News Headlines and Its Application to Analyzing News Framing Trends Surrounding U.S. Gun Violence",
-            "text": "Siyi Liu, Lei Guo, Kate Mays, Margrit Betke, Derry Wijaya. Proc. of CoNLL 2019",
-            "link": "https://www.aclweb.org/anthology/K19-1047/",
-            "field": "News Framing"
+            "title": "Detecting reports of unsafe foods in consumer product reviews",
+            "text": "Adyasha Maharana, Kunlin Cai, Joseph Hellerstein, Yulin Hswen, Michael Munsell, Valentina Staneva, Miki Verma, Cynthia Vint, Derry Wijaya, Elaine O Nsoesie. JAMIA Open, 2019",
+            "link": "https://academic.oup.com/jamiaopen/article/2/3/330/5543660?login=true",
+            "field": "Public Health"
         },
         {
             "icon": "flaticon-idea",
@@ -78,27 +99,6 @@
             "text": "Derry Wijaya, Reyyan Yeniterzi. Proc. of the workshop on DETecting and Exploiting Cultural diversiTy on the social web, at CIKM 2011",
             "link": "https://dl.acm.org/doi/abs/10.1145/2064448.2064475",
             "field": "Lexical Semantics"
-        },
-        {
-            "icon": "flaticon-idea",
-            "title": "JUUL the heartbreaker: Twitter analysis of cardiovascular health perceptions of vaping",
-            "text": "Traci Hong, Jiaxi Wu, Derry Wijaya, Ziming Xuan, Jessica L Fetterman. Tobacco induced diseases, Volume 19, 2021",
-            "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7791365/",
-            "field": "Public Health"
-        },
-        {
-            "icon": "flaticon-idea",
-            "title": "Discussions of miscarriage and preterm births on Twitter",
-            "text": "Nina Cesare, Olubusola Oladeji, Kadija Ferryman, Derry Wijaya, Karen D Hendricks‐Muñoz, Alyssa Ward, Elaine O Nsoesie. Paediatric and perinatal epidemiology, 2020",
-            "link": "https://onlinelibrary.wiley.com/doi/full/10.1111/ppe.12622",
-            "field": "Public Health"
-        },
-        {
-            "icon": "flaticon-idea",
-            "title": "Detecting reports of unsafe foods in consumer product reviews",
-            "text": "Adyasha Maharana, Kunlin Cai, Joseph Hellerstein, Yulin Hswen, Michael Munsell, Valentina Staneva, Miki Verma, Cynthia Vint, Derry Wijaya, Elaine O Nsoesie. JAMIA Open, 2019",
-            "link": "https://academic.oup.com/jamiaopen/article/2/3/330/5543660?login=true",
-            "field": "Public Health"
         }
     ],
     "grantContent":{
@@ -126,7 +126,7 @@
         },
         {
             "icon":"flaticon-idea",
-            "title": "Semi-supervised Learning of Multimodal Representations (Machine Translation)",
+            "title": "AIDA: Semi-supervised Learning of Multimodal Representations (Machine Translation)",
             "text": "Chris Callison-Burch (UPenn) - PI, Derry Wijaya",
             "link": "",
             "period": "2019-2020",

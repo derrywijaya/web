@@ -26,7 +26,7 @@
                 "img": "assets/img/photos/vibhu.jpg",
                 "title": "Vibhu Bhatia",
                 "webpagelink": "https://vibss2397.github.io/",
-                "designation": "M.S. in Computer Science (BU)",
+                "designation": "M.S. in CS Student (BU)",
                 "facebookLink": "#",
                 "facebookIcon": "bx bxl-facebook",
                 "twitterLink": "#",
@@ -66,26 +66,11 @@
                 "linkedinLink": "https://www.linkedin.com/in/fabian-zhafransyah/",
                 "linkedinIcon": "bx bxl-linkedin",
                 "status": "Undergraduate Student"
-            },
-            {
-                "img": "assets/img/photos/edward.jpg",
-                "title": "Edward Edgberg",
-                "webpagelink": "https://edward-edberg.github.io/",
-                "designation": "Undergraduate student (Surya University, GIK)",
-                "facebookLink": "#",
-                "facebookIcon": "bx bxl-facebook",
-                "twitterLink": "#",
-                "twitterIcon": "bx bxl-twitter",
-                "instagramLink": "#",
-                "instagramIcon": "bx bxl-instagram",
-                "linkedinLink": "https://www.linkedin.com/in/edward-edberg-halim-241014111/?originalSubdomain=id",
-                "linkedinIcon": "bx bxl-linkedin",
-                "status": "Undergraduate Student"
             }
         ],
         "publicationContent": 
             {
-                "title": "Our selected publications",
+                "title": "Our recent publications",
                 "paragraphText1": "Below is the list of our latest publications.",
                 "paragraphText2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
                 "defaultBtnIcon": "flaticon-right",
@@ -94,48 +79,73 @@
             }
         ,
         "pubList": [
+            
             {
                 "icon": "flaticon-idea",
-                "title": "LAL: Linguistically Aware Learning for Scene Text Recognition",
-                "text": "Yi Zheng, Wenda Qin, Derry Wijaya, Margrit Betke. Proc. of ACM Multimedia 2020 (to appear)",
-                "link": "mmfp0166-zhengA.pdf"
+                "title": "What makes gun violence a (less) prominent issue? A computational analysis of compelling arguments and selective agenda setting",
+                "text": "Lei Guo, Kate Mays, Yiyan Zhang, Derry Wijaya, Margrit Betke. Mass Communication and Society, 2021",
+                "link": "https://www.tandfonline.com/doi/abs/10.1080/15205436.2021.1898644",
+                "field": "News Framing"
+            },
+            {
+                "icon": "flaticon-idea",
+                "title": "OpenFraming: We brought the ML; you bring the data. Interact with your data and discover its frames",
+                "text": "Alyssa Smith, David Assefa Tofu, Mona Jalal, Edward Edberg Halim, Yimeng Sun, Vidya Akavoor, Margrit Betke, Prakash Ishwar, Lei Guo, Derry Wijaya. arXiv preprint arXiv:2008.06974, 2020",
+                "link": "https://arxiv.org/abs/2008.06974",
+                "field": "News Framing"
             },
             {
                 "icon": "flaticon-idea",
                 "title": "Multi-label and Multilingual News Framing Analysis",
-                "text": "Afra Feyza Akyürek, Lei Guo, Randa Elanwar, Margrit Betke, Prakash Ishwar, Derry T. Wijaya. Proc. of ACL 2020",
-                "link": "2020.acl-main.763.pdf"
+                "text": "Afra Feyza Akyürek, Lei Guo, Randa Elanwar, Margrit Betke, Prakash Ishwar, Derry Wijaya. Proc. of ACL 2020",
+                "link": "https://www.aclweb.org/anthology/2020.acl-main.763/",
+                "field":"News Framing"
+            },        
+            {
+                "icon": "flaticon-idea",
+                "title": "Detecting Frames in News Headlines and Its Application to Analyzing News Framing Trends Surrounding U.S. Gun Violence",
+                "text": "Siyi Liu, Lei Guo, Kate Mays, Margrit Betke, Derry Wijaya. Proc. of CoNLL 2019",
+                "link": "https://www.aclweb.org/anthology/K19-1047/",
+                "field": "News Framing"
             }
         ],
         "caseStudiesDetailsInfo": [
             {
                 "icon": "bx bx-user-pin",
                 "title": "Grant",
-                "subTitle": "SNF "
+                "subTitle": "NSF - BIGDATA "
             },
             {
                 "icon": "bx bx-check",
                 "title": "Started on",
-                "subTitle": "June 2018"
+                "subTitle": "September 2018"
             }
         ],
         "caseStudiesDetailsDesc": [
             {
-                "subTitle": "Data Science",
-                "title1": "Complete Data Science Training: Mathematics, Statistics, Python, Advanced Statistics in Python",
-                "paragraph1": "Improve Machine Learning algorithms by studying underfitting, overfitting, training, validation, n-fold cross validation, testing, and how hyperparameters could improve performance. Perform linear and logistic regressions in Python.",
+                "subTitle": "",
+                "title1": "",
+                "paragraph1": "In this work, we research methods for framing analysis and identification. Different news articles about the same topic often offer a variety of perspectives: an article written about gun violence might emphasize gun control, while another might promote 2nd Amendment rights, and yet a third might focus on mental health issues. In communication research, these different perspectives are known as “frames”, which, when used in news media will influence the opinion of their readers in multiple ways. In this project, in collaboration with communication researchers, we curate and provide expert annotations of news articles with their frames, and research and develop models for effectively detecting frames in news articles.",
                 "img1": "assets/img/projects/img2.jpg",
                 "title2": "Important Facts",
-                "paragraph2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.",
-                "paragraph3": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.",
-                "title3": "Results",
-                "paragraph4": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna ad aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco labori."
+                "paragraph2": "We have constructed datasets of news articles annotated with their frames, covering several important public affairs issues including U.S. gun violence (released), COVID-19 (released), climate change (ongoing), and immigration (ongoing). We have also developed models for effective frame detection in multiple languages, even those with few training data (released), and using multiple modalities including texts,  images, and videos and in multiple platforms including news and social media texts (ongoing).",
+                "paragraph3": "",
+                "title3": "Ongoing works",
+                "paragraph4": "We are currently building a Web-based system (OpenFraming) for analyzing and classifying frames in text documents in multiple languages. Our goal is to make effective tools for automatic frame discovery and labeling based on topic modeling and our proposed models widely accessible to researchers from a diverse array of disciplines. To this end, we provide both state-of-the-art pre-trained frame classification models on various issues as well as a user-friendly pipeline for training novel classification models on user-provided corpora. Researchers can submit their documents and obtain frames of the documents. The degree of user involvement is flexible: they can run models that have been pre-trained on select issues; submit labeled documents and train a new model for frame classification; or submit unlabeled documents and obtain potential frames of the documents. The code making up our system is also open-sourced and well-documented, making the system transparent and expandable."
             }
         ],
         "externalLink" :[
             {
-                "text": "test Texk",
-                "url" : "http://www.google.com"
+                "text": "Gun Violence Frame Corpus",
+                "url" : "https://derrywijaya.github.io/GVFC.html"
+            },
+            {
+                "text": "Communicating COVID-19",
+                "url" : "https://covid19.philemerge.com/"
+            },
+            {
+                "text": "OpenFraming Web portal",
+                "url" : "http://www.openframing.org/"
             }
         ]
     },
@@ -143,7 +153,7 @@
         "pageTitleArea": [
             {
                 "title": "Few-shot Incremental learning",
-                "subTitle": "NLP"
+                "subTitle": "Vision-language task"
             }
         ],
         "teamMembers": [
@@ -151,7 +161,7 @@
                 "img": "assets/img/photos/feyza.jpeg",
                 "title": "Afra Feyza Akyurek",
                 "webpagelink": "https://feyzaakyurek.github.io/",
-                "designation": "PhD Student (BU)",
+                "designation": "2nd year PhD Student (BU)",
                 "facebookLink": "#",
                 "facebookIcon": "bx bxl-facebook",
                 "twitterLink": "#",
@@ -165,7 +175,7 @@
         ],
         "publicationContent": 
             {
-                "title": "Our selected publications",
+                "title": "",
                 "paragraphText1": "Below is the list of our latest publications.",
                 "paragraphText2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
                 "defaultBtnIcon": "flaticon-right",
@@ -174,56 +184,42 @@
             }
         ,
         "pubList": [
-            {
-                "icon": "flaticon-idea",
-                "title": "LAL: Linguistically Aware Learning for Scene Text Recognition",
-                "text": "Yi Zheng, Wenda Qin, Derry Wijaya, Margrit Betke. Proc. of ACM Multimedia 2020 (to appear)",
-                "link": "mmfp0166-zhengA.pdf"
-            },
-            {
-                "icon": "flaticon-idea",
-                "title": "Multi-label and Multilingual News Framing Analysis",
-                "text": "Afra Feyza Akyürek, Lei Guo, Randa Elanwar, Margrit Betke, Prakash Ishwar, Derry T. Wijaya. Proc. of ACL 2020",
-                "link": "2020.acl-main.763.pdf"
-            }
+            
         ],
         "caseStudiesDetailsInfo": [
             {
                 "icon": "bx bx-user-pin",
                 "title": "Grant",
-                "subTitle": "SNF "
+                "subTitle": "DARPA - LwLL"
             },
             {
                 "icon": "bx bx-check",
                 "title": "Started on",
-                "subTitle": "June 2018"
+                "subTitle": "January 2020"
             }
         ],
         "caseStudiesDetailsDesc": [
             {
-                "subTitle": "Data Science",
-                "title1": "Complete Data Science Training: Mathematics, Statistics, Python, Advanced Statistics in Python",
-                "paragraph1": "Improve Machine Learning algorithms by studying underfitting, overfitting, training, validation, n-fold cross validation, testing, and how hyperparameters could improve performance. Perform linear and logistic regressions in Python.",
+                "subTitle": "",
+                "title1": "",
+                "paragraph1": "In this work we investigate the role of language in few-shot incremental learning. Specifically we study the image classification task where there are a set of base classes with abundant examples and a set of novel classes from which only few samples are available. The goal in few-shot incremental learning is to acquire new concepts without forgetting what's previously learned. We inspire from the use of language in zero-shot learning and inquire the effect of language in shaping the learning in image space.",
                 "img1": "assets/img/projects/img2.jpg",
-                "title2": "Important Facts",
-                "paragraph2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.",
-                "paragraph3": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.",
-                "title3": "Results",
-                "paragraph4": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna ad aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco labori."
+                "title2": "",
+                "paragraph2": "",
+                "paragraph3": "",
+                "title3": "",
+                "paragraph4": ""
             }
         ],
         "externalLink" :[
-            {
-                "text": "test Texk",
-                "url" : "http://www.google.com"
-            }
+            
         ]
     },
     "translationdata": {
         "pageTitleArea": [
             {
                 "title": "Machine Translation",
-                "subTitle": "NLP"
+                "subTitle": "for Low Resource Languages"
             }
         ],
         "teamMembers": [
@@ -246,7 +242,7 @@
                 "img": "assets/img/photos/yusuf.jpeg",
                 "title": "Yusuf Kocyigit",
                 "webpagelink": "https://cs-people.bu.edu/kocyigit/",
-                "designation": "PhD Student (BU)",
+                "designation": "1st year PhD Student (BU)",
                 "facebookLink": "#",
                 "facebookIcon": "bx bxl-facebook",
                 "twitterLink": "#",
@@ -261,7 +257,7 @@
                 "img": "assets/img/photos/feyza.jpeg",
                 "title": "Afra Feyza Akyurek",
                 "webpagelink": "https://feyzaakyurek.github.io/",
-                "designation": "PhD Student (BU)",
+                "designation": "2nd year PhD student (BU)",
                 "facebookLink": "#",
                 "facebookIcon": "bx bxl-facebook",
                 "twitterLink": "#",
@@ -335,7 +331,7 @@
         ],
         "publicationContent": 
             {
-                "title": "Our selected publications",
+                "title": "Our publications",
                 "paragraphText1": "Below is the list of our latest publications.",
                 "paragraphText2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
                 "defaultBtnIcon": "flaticon-right",
@@ -346,46 +342,66 @@
         "pubList": [
             {
                 "icon": "flaticon-idea",
-                "title": "LAL: Linguistically Aware Learning for Scene Text Recognition",
-                "text": "Yi Zheng, Wenda Qin, Derry Wijaya, Margrit Betke. Proc. of ACM Multimedia 2020 (to appear)",
-                "link": "mmfp0166-zhengA.pdf"
+                "title": "Cultural and Geographical Influences on Image Translatability of Words across Languages",
+                "text": "Nikzad Khani, Isidora Chara Tourni, Mohammad Sadegh Rasooli, Chris Callison-Burch, Derry Wijaya. Proc. of NAACL 2021 (to appear)",
+                "link": "",
+                "field": "Machine Translation"
             },
             {
                 "icon": "flaticon-idea",
-                "title": "Multi-label and Multilingual News Framing Analysis",
-                "text": "Afra Feyza Akyürek, Lei Guo, Randa Elanwar, Margrit Betke, Prakash Ishwar, Derry T. Wijaya. Proc. of ACL 2020",
-                "link": "2020.acl-main.763.pdf"
+                "title": "Majority Voting with Bidirectional Pre-translation Improves Bitext Retrieval",
+                "text": "Alex Jones, Derry Wijaya. arXiv preprint arXiv:2103.06369, 2021",
+                "link": "https://arxiv.org/abs/2103.06369",
+                "field": "Machine Translation"
+            },
+            {
+                "icon": "flaticon-idea",
+                "title": "Learning Translations via Images with a Massively Multilingual Image Dataset",
+                "text": "John Hewitt, Daphne Ippolito, Brendan Callahan, ,Reno Kriz, Derry Wijaya, Chris Callison-Burch. Proc. of ACL 2018",
+                "link": "https://www.aclweb.org/anthology/P18-1239/",
+                "field": "Machine Translation"
+            },
+            {
+                "icon": "flaticon-idea",
+                "title": "Learning Translations via Matrix Completion",
+                "text": "Derry Wijaya, Brendan Callahan, John Hewitt, Jie Gao, Xiao Ling, Marianna Apidianaki, Chris Callison-Burch. Proc. of EMNLP 2017",
+                "link": "https://www.aclweb.org/anthology/D17-1152/",
+                "field": "Machine Translation"
             }
         ],
         "caseStudiesDetailsInfo": [
             {
                 "icon": "bx bx-user-pin",
                 "title": "Grant",
-                "subTitle": "SNF "
+                "subTitle": "DARPA - LwLL, AIDA"
             },
             {
                 "icon": "bx bx-check",
                 "title": "Started on",
-                "subTitle": "June 2018"
+                "subTitle": "June 2020"
             }
         ],
         "caseStudiesDetailsDesc": [
             {
-                "subTitle": "Data Science",
-                "title1": "Complete Data Science Training: Mathematics, Statistics, Python, Advanced Statistics in Python",
-                "paragraph1": "Improve Machine Learning algorithms by studying underfitting, overfitting, training, validation, n-fold cross validation, testing, and how hyperparameters could improve performance. Perform linear and logistic regressions in Python.",
+                "subTitle": "",
+                "title1": "",
+                "paragraph1": "In this work, we research methods for training effective machine translation models when there are few/no parallel data (i.e., human translation data) to train the models, which is the case for the majority of languages in the world, including the informal use of languages in social contexts. We investigate unsupervised and semi-supervised methods for translation that leverage monolingual and comparable texts, readily-available bilingual resources such as dictionaries, and other potential signals for translation such as images.",
                 "img1": "assets/img/projects/img2.jpg",
-                "title2": "Important Facts",
-                "paragraph2": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.",
-                "paragraph3": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.",
-                "title3": "Results",
-                "paragraph4": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna ad aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco labori."
+                "title2": "",
+                "paragraph2": "With collaborators at UPenn, we constructed and publicly released the Massively Multilingual Image Dataset (MMID), which is a large-scale, massively multilingual dataset of images paired with the words they represent. The dataset is doubly parallel: for each language, words are stored parallel to images that represent the word, and parallel to the word’s translation into English (and corresponding images.) MMID is by far the largest dataset of its kind, it has 98 languages (including English) and up to 10k words per language (and many more for English.), and up to 100 images per word. We also released models for lexical translation that leverage small dictionaries (up to 10k words), Wikipedia interlingual links, and images, and without parallel data.",
+                "paragraph3": "",
+                "title3": "",
+                "paragraph4": ""
             }
         ],
         "externalLink" :[
             {
-                "text": "test Texk",
-                "url" : "http://www.google.com"
+                "text": "Massively Multilingual Image Dataset",
+                "url" : "http://multilingual-images.org/"
+            },
+            {
+                "text": "Bilingual Lexicon Induction via Matrix Completion",
+                "url": "https://www.seas.upenn.edu/~derry/translations.html"
             }
         ]
     }
