@@ -149,6 +149,76 @@
             }
         ]
     },
+    "publichealthdata": {
+        "pageTitleArea": [
+            {
+                "title": "NLP for Public Health",
+                "subTitle": "NLP Applications"
+            }
+        ],
+        "teamMembers": [
+        ],
+        "publicationContent": 
+            {
+                "title": "Our recent publications",
+                "paragraphText1": "Below is the list of our latest publications.",
+                "paragraphText2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+                "defaultBtnIcon": "flaticon-right",
+                "defaultBtnText": "Google Scholar",
+                "defaultBtnLink": "https://scholar.google.com/citations?user=8lmWWD0AAAAJ&hl=en"
+            }
+        ,
+        "pubList": [
+            
+            {
+                "icon": "flaticon-idea",
+                "title": "JUUL the heartbreaker: Twitter analysis of cardiovascular health perceptions of vaping",
+                "text": "Traci Hong, Jiaxi Wu, Derry Wijaya, Ziming Xuan, Jessica L Fetterman. Tobacco induced diseases, Volume 19, 2021",
+                "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7791365/",
+                "field": "Public Health"
+            },
+            {
+                "icon": "flaticon-idea",
+                "title": "Discussions of miscarriage and preterm births on Twitter",
+                "text": "Nina Cesare, Olubusola Oladeji, Kadija Ferryman, Derry Wijaya, Karen D Hendricks‐Muñoz, Alyssa Ward, Elaine O Nsoesie. Paediatric and perinatal epidemiology, 2020",
+                "link": "https://onlinelibrary.wiley.com/doi/full/10.1111/ppe.12622",
+                "field": "Public Health"
+            },
+            {
+                "icon": "flaticon-idea",
+                "title": "Detecting reports of unsafe foods in consumer product reviews",
+                "text": "Adyasha Maharana, Kunlin Cai, Joseph Hellerstein, Yulin Hswen, Michael Munsell, Valentina Staneva, Miki Verma, Cynthia Vint, Derry Wijaya, Elaine O Nsoesie. JAMIA Open, 2019",
+                "link": "https://academic.oup.com/jamiaopen/article/2/3/330/5543660?login=true",
+                "field": "Public Health"
+            }
+        ],
+        "caseStudiesDetailsInfo": [
+            {
+                "icon": "bx bx-check",
+                "title": "Started on",
+                "subTitle": "January 2019"
+            }
+        ],
+        "caseStudiesDetailsDesc": [
+            {
+                "subTitle": "",
+                "title1": "",
+                "paragraph1": "In this work, we research applications of NLP models to  analyze important public health issues in user-generated contents such as customer reviews and social media discussions. With colleagues from Boston University Medical Campus and Public Health, and Communications, we have applied NLP models to detect unsafe foods in customer product reviews, analyze discussions of miscarriage and preterm births on Twitter, and infer demography of users and analyze discussions of e-cigarette on Twitter.",
+                "img1": "assets/img/projects/img2.jpg",
+                "title2": "",
+                "paragraph2": "",
+                "paragraph3": "",
+                "title3": "Ongoing works",
+                "paragraph4": "In the recent decade, e-cigarette use among youth in the U.S. has significantly increased. In addition to its negative health implications, e-cigarette use also increases the likelihood to transition to combustible cigarette smoking and addiction to other drugs. While there are many e-cigarette policies, to date, little is known about the varying levels of e-cigarette and tobacco policies across states to reduce e-cigarette consumption. Since social media is pervasive, there is a growing trend of leveraging social media as part of public health initiatives. Social media postings can also reveal public sentiment toward health policies. We are developing models to assess the effects of tobacco control policies and public sentiment on e-cigarette use by analyzing e-cigarette discussions in social media such as Twitter in connection to various health policies, and retail data. The findings of this study will contribute to our understanding of the mechanism involving tobacco policies, public sentiment on vaping, and youth e-cigarette consumption. We hope that the results of this study will help policy implementation at the federal level and social-media campaigns to prevent and reduce youth e-cigarette use."
+            }
+        ],
+        "externalLink" :[
+            {
+                "text": "Stress during COVID-19 among e-cigarette Users",
+                "url" : "https://derry-171fb.firebaseapp.com/"
+            }
+        ]
+    },
     "fewshotdata": {
         "pageTitleArea": [
             {

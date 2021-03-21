@@ -71,6 +71,11 @@ export class ResearchsComponent implements OnInit {
                     console.log(this.researchData)
                     break;
                   case '3':
+                    this.researchData = result['publichealthdata'];
+                    
+                    console.log(this.researchData)
+                    break;
+                  case '4':
                     this.researchData = result['fewshotdata'];
                     
                     console.log(this.researchData)
