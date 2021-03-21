@@ -66,6 +66,51 @@
                 "linkedinLink": "https://www.linkedin.com/in/fabian-zhafransyah/",
                 "linkedinIcon": "bx bxl-linkedin",
                 "status": "Undergraduate Student"
+            },
+            {
+        
+                "title": "Edward Edgberg",
+                "webpagelink": "https://edward-edberg.github.io/",
+                "designation": "Undergraduate student (GIK)",
+                "facebookLink": "#",
+                "facebookIcon": "bx bxl-facebook",
+                "twitterLink": "#",
+                "twitterIcon": "bx bxl-twitter",
+                "instagramLink": "#",
+                "instagramIcon": "bx bxl-instagram",
+                "linkedinLink": "https://www.linkedin.com/in/edward-edberg-halim-241014111/?originalSubdomain=id",
+                "linkedinIcon": "bx bxl-linkedin",
+                "status": "Alumni"
+            },
+            {
+        
+                "title": "Siyi Liu (now at UPenn)",
+                "webpagelink": "",
+                "designation": "B.S./M.S. in Computer Science (BU)",
+                "facebookLink": "#",
+                "facebookIcon": "bx bxl-facebook",
+                "twitterLink": "#",
+                "twitterIcon": "bx bxl-twitter",
+                "instagramLink": "#",
+                "instagramIcon": "bx bxl-instagram",
+                "linkedinLink": "",
+                "linkedinIcon": "bx bxl-linkedin",
+                "status": "Alumni"
+            },
+            {
+        
+                "title": "Alex Duchnowski (now at Brown)",
+                "webpagelink": "https://www.linkedin.com/in/alex-duchnowski-3b056518b/",
+                "designation": "High School (BU Academy)",
+                "facebookLink": "#",
+                "facebookIcon": "bx bxl-facebook",
+                "twitterLink": "#",
+                "twitterIcon": "bx bxl-twitter",
+                "instagramLink": "#",
+                "instagramIcon": "bx bxl-instagram",
+                "linkedinLink": "https://www.linkedin.com/in/alex-duchnowski-3b056518b/",
+                "linkedinIcon": "bx bxl-linkedin",
+                "status": "Alumni"
             }
         ],
         "publicationContent": 
@@ -157,6 +202,21 @@
             }
         ],
         "teamMembers": [
+            {
+        
+                "title": "Kunlin Cai (now at UCSD)",
+                "webpagelink": "https://kunlincai.com/",
+                "designation": "B.S./M.S. in Computer Science (BU)",
+                "facebookLink": "#",
+                "facebookIcon": "bx bxl-facebook",
+                "twitterLink": "#",
+                "twitterIcon": "bx bxl-twitter",
+                "instagramLink": "#",
+                "instagramIcon": "bx bxl-instagram",
+                "linkedinLink": "https://www.linkedin.com/in/kunlin-cai-b85a6216a/",
+                "linkedinIcon": "bx bxl-linkedin",
+                "status": "Alumni"
+            }
         ],
         "publicationContent": 
             {
@@ -223,7 +283,7 @@
         "pageTitleArea": [
             {
                 "title": "Few-shot Incremental learning",
-                "subTitle": "Vision-language task"
+                "subTitle": "Vision-language tasks"
             }
         ],
         "teamMembers": [
@@ -397,6 +457,21 @@
                 "linkedinLink": "https://www.linkedin.com/in/gkuwanto/",
                 "linkedinIcon": "bx bxl-linkedin",
                 "status": "Undergraduate Student"
+            },
+            {
+        
+                "title": "Jorge Nario (now at Google)",
+                "webpagelink": "https://www.linkedin.com/in/jorge-nario/",
+                "designation": "Bachelor's Degree in Computer Science (BU)",
+                "facebookLink": "#",
+                "facebookIcon": "bx bxl-facebook",
+                "twitterLink": "#",
+                "twitterIcon": "bx bxl-twitter",
+                "instagramLink": "#",
+                "instagramIcon": "bx bxl-instagram",
+                "linkedinLink": "https://www.linkedin.com/in/jorge-nario/",
+                "linkedinIcon": "bx bxl-linkedin",
+                "status": "Alumni"
             }
         ],
         "publicationContent": 
@@ -472,6 +547,139 @@
             {
                 "text": "Bilingual Lexicon Induction via Matrix Completion",
                 "url": "https://www.seas.upenn.edu/~derry/translations.html"
+            }
+        ]
+    },
+    "otherdata": {
+        "pageTitleArea": [
+            {
+                "title": "Other Projects",
+                "subTitle": "Vision-language tasks, NLP Applications"
+            }
+        ],
+        "teamMembers": [
+            {
+                "title": "Wenxing Liu",
+                "webpagelink": "https://www.linkedin.com/in/cs-wenxingliu/",
+                "designation": "M.S. in Computer Science (BU)",
+                "facebookLink": "#",
+                "facebookIcon": "bx bxl-facebook",
+                "twitterLink": "#",
+                "twitterIcon": "bx bxl-twitter",
+                "instagramLink": "#",
+                "instagramIcon": "bx bxl-instagram",
+                "linkedinLink": "https://www.linkedin.com/in/cs-wenxingliu/",
+                "linkedinIcon": "bx bxl-linkedin",
+                "status": "Alumni"
+            },
+            {
+                
+                "title": "Shawn Lin",
+                "webpagelink": "https://www.linkedin.com/in/shawn3298317lin/?locale=en_US",
+                "designation": "M.S. in Computer Science (BU)",
+                "facebookLink": "#",
+                "facebookIcon": "bx bxl-facebook",
+                "twitterLink": "#",
+                "twitterIcon": "bx bxl-twitter",
+                "instagramLink": "#",
+                "instagramIcon": "bx bxl-instagram",
+                "linkedinLink": "https://www.linkedin.com/in/shawn3298317lin/?locale=en_US",
+                "linkedinIcon": "bx bxl-linkedin",
+                "status": "Alumni"
+            },
+            {
+                
+                "title": "Shijie Zhao",
+                "webpagelink": "https://www.linkedin.com/in/shijie-zhao/",
+                "designation": "M.S. in Computer Science (BU)",
+                "facebookLink": "#",
+                "facebookIcon": "bx bxl-facebook",
+                "twitterLink": "#",
+                "twitterIcon": "bx bxl-twitter",
+                "instagramLink": "#",
+                "instagramIcon": "bx bxl-instagram",
+                "linkedinLink": "https://www.linkedin.com/in/shijie-zhao/",
+                "linkedinIcon": "bx bxl-linkedin",
+                "status": "Alumni"
+            },
+            {
+                
+                "title": "Qiren Sun",
+                "webpagelink": "https://www.linkedin.com/in/qiren-sun-4a1910190/",
+                "designation": "M.S. in Computer Science (BU)",
+                "facebookLink": "#",
+                "facebookIcon": "bx bxl-facebook",
+                "twitterLink": "#",
+                "twitterIcon": "bx bxl-twitter",
+                "instagramLink": "#",
+                "instagramIcon": "bx bxl-instagram",
+                "linkedinLink": "https://www.linkedin.com/in/qiren-sun-4a1910190/",
+                "linkedinIcon": "bx bxl-linkedin",
+                "status": "Alumni"
+            },
+            {
+                
+                "title": "Hengchang Hu",
+                "webpagelink": "https://www.linkedin.com/in/hengchang-hu-5323201a7/",
+                "designation": "M.A. in Statistics (BU)",
+                "facebookLink": "#",
+                "facebookIcon": "bx bxl-facebook",
+                "twitterLink": "#",
+                "twitterIcon": "bx bxl-twitter",
+                "instagramLink": "#",
+                "instagramIcon": "bx bxl-instagram",
+                "linkedinLink": "https://www.linkedin.com/in/hengchang-hu-5323201a7/",
+                "linkedinIcon": "bx bxl-linkedin",
+                "status": "Alumni"
+            }
+        ],
+        "publicationContent": 
+            {
+                "title": "Our publications",
+                "paragraphText1": "Below is the list of our latest publications.",
+                "paragraphText2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+                "defaultBtnIcon": "flaticon-right",
+                "defaultBtnText": "Google Scholar",
+                "defaultBtnLink": "https://scholar.google.com/citations?user=8lmWWD0AAAAJ&hl=en"
+            }
+        ,
+        "pubList": [
+            {
+                "icon": "flaticon-idea",
+                "title": "Informativity in Image Captions vs. Referring Expressions.",
+                "text": " E. Coppock, D. Dionne, N. Graham, E. Ganem, S. Zhao, S. Lin, W. Liu and D. Wijaya. Proc. of Probability and Meaning, 2020 (PaM2020).",
+                "link": "https://www.aclweb.org/anthology/2020.pam-1.14/",
+                "field": "Referring Expression Generation"
+            }
+        ],
+        "caseStudiesDetailsInfo": [
+            {
+                "icon": "bx bx-user-pin",
+                "title": "Grant",
+                "subTitle": "Hariri - Bridging Linguistic and Visual Knowledge (REG)"
+            },
+            {
+                "icon": "bx bx-check",
+                "title": "Started on",
+                "subTitle": "June 2019 (REG), June 2020 (CEP)"
+            }
+        ],
+        "caseStudiesDetailsDesc": [
+            {
+                "subTitle": "",
+                "title1": "Referring Expression Generation (REG)",
+                "paragraph1": "At the intersection between computer vision and natural language processing, there has been recent progress on two natural language generation tasks: Image Captioning and Referring Expression Generation for objects in complex scenes. The former aims to provide a caption for a specified object in a complex scene for the benefit of an interlocutor who may not be able to see it. The latter aims to produce a referring expression that will serve to identify a given object in a scene that the interlocutor can see. The two tasks are designed for different assumptions about the common ground between the interlocutors, and serve very different purposes, although they both associate a linguistic description with an object in a complex scene. Despite these fundamental differences, the distinction between these two tasks is sometimes overlooked.",
+                "img1": "assets/img/projects/img2.jpg",
+                "title2": "",
+                "paragraph2": "In this project, in collaborations with colleagues from the Linguistics Department, we undertake a side-by-side comparison between image captioning and reference game human datasets and show that they differ systematically with respect to informativity. We also develop a model for referring expression generation that models the task as a two-agent cooperative scheme following Gricean maxims in which a 'speaker' agent would generate the expression that best describes a targeted area and a 'listener' agent would identify the target.  Specifically, we explore the Rational Speech Act framework (RSA), a broadly Gricean yet probabilistic approach to pragmatics, which has been shown to generate high quality and explainable expressions on toy datasets, but whose application to large scale problems remains largely unexplored. Our proposed model applies a combination of the RSA framework and deep learning approaches to larger datasets with the aim of generating better-explained expressions while not sacrificing the performance of the system. ",
+                "paragraph3": "",
+                "title3": "Chinese Economy Project (CEP)",
+                "paragraph4": "In this project, in collaborations with colleagues from Communications, the Pardee School of Global Studies, and the International Monetary Fund (IMF), we curate datasets and explore NLP models for analyzing sentiment of financial news in multiple languages on Chinese economy, which will be used in relation with other financial data to construct a reliable index of the country's economy."
+            }
+        ],
+        "externalLink" :[
+            {
+               
             }
         ]
     }

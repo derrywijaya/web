@@ -80,6 +80,11 @@ export class ResearchsComponent implements OnInit {
                     
                     console.log(this.researchData)
                     break;
+                  case '5':
+                    this.researchData = result['otherdata'];
+                      
+                    console.log(this.researchData)
+                    break;
                 }
             }
           }

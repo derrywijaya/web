@@ -141,6 +141,15 @@
             "period": "2019-2021",
             "amount": 18000,
             "sponsor": "Google"
+        },
+        {
+            "icon":"flaticon-idea",
+            "title": "Bridging Linguistic and Visual Knowledge through Visual Genome (PI)",
+            "text": "Derry Wijaya (PI), Elizabeth Coppock",
+            "link": "",
+            "period": "2019-2021",
+            "amount": 28000,
+            "sponsor": "Hariri Institute Research Incubation Award"
         }
     ]
 }
