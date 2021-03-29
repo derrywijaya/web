@@ -1,0 +1,85 @@
+<br>
+<br>
+<section class="our-mission-area ptb-100" *ngIf="header" >
+    <div class="container">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+
+
+                <div class="col-lg-12 col-md-12">
+                    <div class="our-mission-content">
+                        <div class="content">
+                            <h2>{{header.title}}</h2>
+
+                           
+                                <ul class="features-list">
+                                    <li *ngFor="let pub of  publicationList;"><i class="{{pub.icon}}"></i> <a
+                                            href="{{pub.link}}" target="_blank">{{pub.title}}</a>
+                                        <div *ngIf="header?.title != 'Talks'">
+                                        <p>{{pub.text}} <br> <strong>{{pub.publisher}}</strong> </p>
+                                    </div>
+                                    <div *ngIf="header?.title == 'Talks'">
+                                        <p><strong>{{pub.publisher}}</strong> </p>
+                                    </div>
+                                        <br />
+                                    </li>
+                                </ul>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<!-- <section class="courses-details-area pb-100" *ngIf="header?.title == 'Talks'">
+
+    <div class="container">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+
+
+                <div class="col-lg-12 col-md-12">
+                    <div class="our-mission-content">
+                        <div class="content">
+                            <h2>{{header.title}}</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div  *ngFor="let pub of  publicationList;" class="row">
+            <div class="col-lg-4 col-md-12">
+                <div class="courses-details-info">
+                    <div class="image">
+                         <img src="assets/img/courses/img1.jpg" alt="image">
+                        <a href="{{pub.link}}" class="link-btn popup-youtube"></a>
+                        <div class="content">
+                            <i class="flaticon-google-play"></i>
+                            <span>{{pub.title}}</span>
+                        </div>
+                    </div>
+                    <p>
+                         <br> <strong>{{pub.publisher}}</strong> 
+                    </p>
+
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+
+  
+    </div>
+    </section> -->

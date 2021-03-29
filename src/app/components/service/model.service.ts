@@ -121,6 +121,7 @@ export interface  IPublicationList {
   text?: string;
   link?: string;
   field?:string;
+  publisher?:string;
 }
 
 

@@ -1,0 +1,63 @@
+{
+    "talk":[
+        {
+            "icon": "flaticon-idea",
+            "title": "Did You Know You Could..? Series: Represent languages geometrically as clouds of points?",
+            "text": "",
+            "link": "https://www.youtube.com/watch?v=J_NCKb7zdZM",
+            "field": "",
+            "publisher": "Hariri Institute for Computing, Boston University, 2020"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "Bilingual lexicon induction using related language",
+            "text": "",
+            "link": "https://www.youtube.com/watch?v=MOZSrfRVd_Y",
+            "field": "",
+            "publisher": "Hariri Institute for Computing, Boston University, 2018"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "Building Lexical Resources for NLP",
+            "text": "",
+            "link": "https://www.youtube.com/watch?v=esYGSK3C3-M",
+            "field": "",
+            "publisher": "Allen Institute for AI, 2017"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "Visiting Professor - Natural Language Processing",
+            "text": "",
+            "link": "https://www.youtube.com/watch?v=8hK2vJrs0n0",
+            "field": "",
+            "publisher": "Diponegoro University - Indonesia, 2020"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "Virtual Public Lecture Natural Language Processing (NLP) Research at Boston University",
+            "text": "",
+            "link": "https://www.youtube.com/watch?v=d9alrJXPnyA",
+            "field": "",
+            "publisher": "UPN Jatim - Indonesia, 2020 (Bahasa Indonesia)"
+        }
+        
+    ],
+    "media":[
+        {
+            "icon": "flaticon-idea",
+            "title": "Aiming to Learn as We Do, a Machine Teaches Itself",
+            "text": "Give a computer a task that can be crisply defined, win at chess, predict the weather, and the machine bests humans nearly every time. Yet when problems are nuanced or ambiguous, or require combining varied sources of information, computers are no match for human intelligence",
+            "link": "https://www.nytimes.com/2010/10/05/science/05compute.html",
+            "field": "",
+            "publisher": "The New York Times, by Steve Lohr, October 5, 2010"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "What If You Could Manage Information Overload?",
+            "text": "Groundbreaking collaboration among BU schools and researchers leads to $1 million NSF grant to address media overload. ",
+            "link": "http://www.bu.edu/articles/2018/nsf-grant-to-address-media-overload/",
+            "field": "",
+            "publisher": "BU Today, by Kate Becker, 2018"
+        }
+    ]
+}

@@ -87,6 +87,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { StudentsComponent } from './components/pages/students/students.component';
 import { PublicationsComponent } from './components/pages/publications/publications.component';
 import { CommonModule } from '@angular/common';
+import { MediaTalksComponent } from './components/pages/media-talks/media-talks.component';
 
 @NgModule({
   declarations: [
@@ -171,6 +172,7 @@ import { CommonModule } from '@angular/common';
     HomethreeScientistsComponent,
     StudentsComponent,
     PublicationsComponent,
+    MediaTalksComponent,
     // ResearchTranslationComponent,
     // ResearchOneshotComponent,
   ],
