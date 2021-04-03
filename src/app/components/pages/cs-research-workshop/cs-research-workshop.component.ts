@@ -16,7 +16,9 @@ export class CsResearchWorkshopComponent implements OnInit {
     {
         subTitle: "Our Workshop",
         title: 'Explore CS Research',
-        paragraphText: 'Program schedules'
+        paragraphText: 'Program schedules. The times denoted is all in EST',
+        sponsor: 'Google Research',
+        sponsorLink: 'https://research.google/'
     }
 ]
 historyTimeline: TimelineBlock[] = [
@@ -143,6 +145,8 @@ class sectionTitleContent {
   subTitle : string;
   title : string;
   paragraphText : string;
+  sponsor: string;
+  sponsorLink: string
 }
 class TimelineBlock {
   year : string;
