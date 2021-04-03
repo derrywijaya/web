@@ -25,6 +25,7 @@ import {ResearchsComponent} from './components/pages/researchs/researchs.compone
 import { StudentsComponent } from './components/pages/students/students.component';
 import { PublicationsComponent } from './components/pages/publications/publications.component';
 import { MediaTalksComponent } from './components/pages/media-talks/media-talks.component';
+import { CsResearchWorkshopComponent } from './components/pages/cs-research-workshop/cs-research-workshop.component';
 // import { ResearchTranslationComponent } from './components/pages/research-translation/research-translation.component';
 // import { ResearchOneshotComponent } from './components/pages/research-oneshot/research-oneshot.component';
 
@@ -54,7 +55,7 @@ const routes: Routes = [
     //{path: 'blog', component: BlogPageComponent},
     //{path: 'blog-details', component: BlogDetailsPageComponent},
     {path: 'contact', component: ContactPageComponent},
-    // {path: 'translation', component: ResearchTranslationComponent},
+    {path: 'cs-workshop', component: CsResearchWorkshopComponent},
     {path: 'media/:id', component: MediaTalksComponent},
     {path: '**', component: ErrorPageComponent},
 ];

@@ -88,6 +88,7 @@ import { StudentsComponent } from './components/pages/students/students.componen
 import { PublicationsComponent } from './components/pages/publications/publications.component';
 import { CommonModule } from '@angular/common';
 import { MediaTalksComponent } from './components/pages/media-talks/media-talks.component';
+import { CsResearchWorkshopComponent } from './components/pages/cs-research-workshop/cs-research-workshop.component';
 
 @NgModule({
   declarations: [
@@ -173,6 +174,7 @@ import { MediaTalksComponent } from './components/pages/media-talks/media-talks.
     StudentsComponent,
     PublicationsComponent,
     MediaTalksComponent,
+    CsResearchWorkshopComponent,
     // ResearchTranslationComponent,
     // ResearchOneshotComponent,
   ],
