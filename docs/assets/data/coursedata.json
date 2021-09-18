@@ -16,6 +16,15 @@
             "paragraphText": "This is a graduate-level course on multilingual natural language processing (NLP) that is research-oriented and geared towards extending natural language processing approaches to more languages in the world even those without large annotated data. The course will start off with instructor-led presentations that introduce students to NLP. The rest of the course will focus on students' presentations and discussions of state-of-the-art approaches for multilingual NLP or algorithms that are relevant to learning with few annotated data by (1) discussing related research papers, (2) students' ideas for extending these approaches, and (3) results of these ideas' implementations. Participants take turns as discussion leaders.",
             "courseDuration": "Fall Semester"
       
+        },
+        {
+            "courseImg": "assets/img/photos/ideas.jpg",
+            "coursePriceClass": "free",           
+            "title": "CS 640 - Artificial Intelligence",
+            "link": "CS640",
+            "paragraphText": "This is a graduate-level course that studies computer systems that exhibit intelligent behavior. Topics introduced include planning, game playing, pattern recognition, knowledge representation, machine learning, deep learning, computer vision, and natural language processing.",
+            "courseDuration": "Fall Semester"
+      
         }
     ]
 }
