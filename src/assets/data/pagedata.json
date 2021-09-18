@@ -124,7 +124,20 @@
             }
         ,
         "pubList": [
-            
+            {
+                "icon": "flaticon-idea",
+                "title": "Detecting Frames in News Headlines and Lead Images in U.S. Gun Violence Coverage",
+                "text": "Isidora Tourni, Lei Guo, Taufiq Daryanto, Fabian Zhafransyah, Edward Edberg Halim, Mona Jalal, Boqi Chen, Sha Lai, Hengchang Hu, Margrit Betke, Prakash Ishwar and Derry Tanti Wijaya. Findings of EMNLP 2021",
+                "link": "",
+                "field": "News Framing"
+            }, 
+            {
+                "icon": "flaticon-idea",
+                "title": "OpenFraming: Open-sourced Tool for Computational Framing Analysis of Multilingual Data",
+                "text": "Vibhu Bhatia, Vidya Prasad Akavoor, Sejin Paik, Lei Guo, Mona Jalal, Alyssa Smith, David Assefa Tofu, Edward Edberg Halim, Yimeng Sun, Margrit Betke, Prakash Ishwar and Derry Tanti Wijaya. EMNLP Demo 2021",
+                "link": "",
+                "field": "News Framing"
+            },           
             {
                 "icon": "flaticon-idea",
                 "title": "What makes gun violence a (less) prominent issue? A computational analysis of compelling arguments and selective agenda setting",
@@ -190,7 +203,7 @@
             },
             {
                 "text": "OpenFraming Web portal",
-                "url" : "http://www.openframing.org/"
+                "url" : "http://ec2-52-87-161-70.compute-1.amazonaws.com/home.html"
             }
         ]
     },
@@ -487,15 +500,36 @@
         "pubList": [
             {
                 "icon": "flaticon-idea",
+                "title": "\"Wikily\" Neural Machine Translation Tailored to Cross-Lingual Tasks",
+                "text": "Mohammad Sadegh Rasooli, Chris Callison-Burch, Derry Tanti Wijaya. Proc. of EMNLP 2021",
+                "link": "https://arxiv.org/abs/2104.08384",
+                "field": "Machine Translation"
+            },
+            {
+                "icon": "flaticon-idea",
+                "title": "IndoCollex: A Testbed for Morphological Transformation of Indonesian Colloquial Words",
+                "text": "Haryo Akbarianto Wibowo, Made Nindyatama Nityasya, Afra Feyza Akyürek, Suci Fitriany, Alham Fikri Aji, Radityo Eko Prasojo, Derry Tanti Wijaya. Findings of ACL 2021",
+                "link": "https://aclanthology.org/2021.findings-acl.280/",
+                "field": "Machine Translation"
+            },
+            {
+                "icon": "flaticon-idea",
                 "title": "Cultural and Geographical Influences on Image Translatability of Words across Languages",
-                "text": "Nikzad Khani, Isidora Chara Tourni, Mohammad Sadegh Rasooli, Chris Callison-Burch, Derry Wijaya. Proc. of NAACL 2021 (to appear)",
-                "link": "",
+                "text": "Nikzad Khani, Isidora Chara Tourni, Mohammad Sadegh Rasooli, Chris Callison-Burch, Derry Wijaya. Proc. of NAACL 2021",
+                "link": "https://aclanthology.org/2021.naacl-main.19/",
+                "field": "Machine Translation"
+            },
+            {
+                "icon": "flaticon-idea",
+                "title": "Sentiment-based Candidate Selection for NMT",
+                "text": "Alex Jones, Derry Wijaya. Proc. of MTSummit 2021",
+                "link": "https://aclanthology.org/2021.mtsummit-research.16/",
                 "field": "Machine Translation"
             },
             {
                 "icon": "flaticon-idea",
                 "title": "Majority Voting with Bidirectional Pre-translation Improves Bitext Retrieval",
-                "text": "Alex Jones, Derry Wijaya. arXiv preprint arXiv:2103.06369, 2021",
+                "text": "Alex Jones, Derry Wijaya. Proc. of BUCC Workshop 2021",
                 "link": "https://arxiv.org/abs/2103.06369",
                 "field": "Machine Translation"
             },

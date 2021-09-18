@@ -11,6 +11,20 @@
     "publicationList":[
         {
             "icon": "flaticon-idea",
+            "title": "OpenFraming: Open-sourced Tool for Computational Framing Analysis of Multilingual Data",
+            "text": "Vibhu Bhatia, Vidya Prasad Akavoor, Sejin Paik, Lei Guo, Mona Jalal, Alyssa Smith, David Assefa Tofu, Edward Edberg Halim, Yimeng Sun, Margrit Betke, Prakash Ishwar and Derry Tanti Wijaya. EMNLP Demo 2021",
+            "link": "http://ec2-52-87-161-70.compute-1.amazonaws.com/home.html",
+            "field": "News Framing"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "Detecting Frames in News Headlines and Lead Images in U.S. Gun Violence Coverage",
+            "text": "Isidora Tourni, Lei Guo, Taufiq Daryanto, Fabian Zhafransyah, Edward Edberg Halim, Mona Jalal, Boqi Chen, Sha Lai, Hengchang Hu, Margrit Betke, Prakash Ishwar and Derry Tanti Wijaya. Findings of EMNLP 2021",
+            "link": "",
+            "field": "News Framing"
+        },
+        {
+            "icon": "flaticon-idea",
             "title": "What makes gun violence a (less) prominent issue? A computational analysis of compelling arguments and selective agenda setting",
             "text": "Lei Guo, Kate Mays, Yiyan Zhang, Derry Wijaya, Margrit Betke. Mass Communication and Society, 2021",
             "link": "https://www.tandfonline.com/doi/abs/10.1080/15205436.2021.1898644",
@@ -32,23 +46,37 @@
         },
         {
             "icon": "flaticon-idea",
+            "title": "\"Wikily\" Neural Machine Translation Tailored to Cross-Lingual Tasks",
+            "text": "Mohammad Sadegh Rasooli, Chris Callison-Burch, Derry Tanti Wijaya. Proc. of EMNLP 2021",
+            "link": "https://arxiv.org/abs/2104.08384",
+            "field": "Machine Translation"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "IndoCollex: A Testbed for Morphological Transformation of Indonesian Colloquial Words",
+            "text": "Haryo Akbarianto Wibowo, Made Nindyatama Nityasya, Afra Feyza Akyürek, Suci Fitriany, Alham Fikri Aji, Radityo Eko Prasojo, Derry Tanti Wijaya. Findings of ACL 2021",
+            "link": "https://aclanthology.org/2021.findings-acl.280/",
+            "field": "Machine Translation"
+        },
+        {
+            "icon": "flaticon-idea",
             "title": "Cultural and Geographical Influences on Image Translatability of Words across Languages",
-            "text": "Nikzad Khani, Isidora Chara Tourni, Mohammad Sadegh Rasooli, Chris Callison-Burch, Derry Wijaya. Proc. of NAACL 2021 (to appear)",
-            "link": "",
+            "text": "Nikzad Khani, Isidora Chara Tourni, Mohammad Sadegh Rasooli, Chris Callison-Burch, Derry Wijaya. Proc. of NAACL 2021",
+            "link": "https://aclanthology.org/2021.naacl-main.19/",
             "field": "Machine Translation"
         },
         {
             "icon": "flaticon-idea",
-            "title": "Learning Translations via Images with a Massively Multilingual Image Dataset",
-            "text": "John Hewitt, Daphne Ippolito, Brendan Callahan, ,Reno Kriz, Derry Wijaya, Chris Callison-Burch. Proc. of ACL 2018",
-            "link": "https://www.aclweb.org/anthology/P18-1239/",
+            "title": "Sentiment-based Candidate Selection for NMT",
+            "text": "Alex Jones and Derry Tanti Wijaya. Proc. of MTSummit 2021",
+            "link": "https://arxiv.org/abs/2104.04840",
             "field": "Machine Translation"
         },
         {
             "icon": "flaticon-idea",
-            "title": "Learning Translations via Matrix Completion",
-            "text": "Derry Wijaya, Brendan Callahan, John Hewitt, Jie Gao, Xiao Ling, Marianna Apidianaki, Chris Callison-Burch. Proc. of EMNLP 2017",
-            "link": "https://www.aclweb.org/anthology/D17-1152/",
+            "title": "Majority Voting with Bidirectional Pre-translation For Bitext Retrieval",
+            "text": "Alex Jones and Derry Tanti Wijaya. Proc. of BUCC Workshop 2021",
+            "link": "https://arxiv.org/abs/2103.06369",
             "field": "Machine Translation"
         },
         {
@@ -71,6 +99,27 @@
             "text": "Adyasha Maharana, Kunlin Cai, Joseph Hellerstein, Yulin Hswen, Michael Munsell, Valentina Staneva, Miki Verma, Cynthia Vint, Derry Wijaya, Elaine O Nsoesie. JAMIA Open, 2019",
             "link": "https://academic.oup.com/jamiaopen/article/2/3/330/5543660?login=true",
             "field": "Public Health"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "Extracting text from scanned Arabic books: a large-scale benchmark dataset and a fine-tuned Faster-R-CNN model",
+            "text": "Randa Elanwar, Wenda Qin, Margrit Betke, Derry Wijaya. International Journal on Document Analysis and Recognition (IJDAR), 2021",
+            "link": "https://link.springer.com/article/10.1007/s10032-021-00382-4",
+            "field": "Vision-Language"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "LAL: Linguistically Aware Learning for Scene Text Recognition",
+            "text": "Yi Zheng, Wenda Qin, Derry Wijaya, Margrit Betke. Proc. of ACMM, 2020",
+            "link": "https://dl.acm.org/doi/abs/10.1145/3394171.3413913",
+            "field": "Vision-Language"
+        },
+        {
+            "icon": "flaticon-idea",
+            "title": "Learning to scale multilingual representations for vision-language tasks",
+            "text": "Andrea Burns, Donghyun Kim, Derry Wijaya, Kate Saenko, Bryan A Plummer. Proc. of ECCV, 2020",
+            "link": "https://link.springer.com/chapter/10.1007/978-3-030-58548-8_12",
+            "field": "Vision-Language"
         },
         {
             "icon": "flaticon-idea",
@@ -106,6 +155,15 @@
         "paragraphText1": "The works conducted by the Language LeArning Machine (LLAMA) lab at Boston University are funded by:"
     },
     "grantList":[
+        {
+            "icon":"flaticon-idea",
+            "title": "Exploring the evolution of racial biases over time through framing analysis",
+            "text": "Derry Wijaya (BU) - PI, Anietie Andy (Penn)",
+            "link": "",
+            "period": "2021-2022",
+            "amount": 60000,
+            "sponsor": "Google"
+        },
         {
             "icon":"flaticon-idea",
             "title": "BIGDATA: IA: Multiplatform, Multilingual, and Multimodal Tools for Analyzing Public Communication in over 100 Languages (News Framing)",
