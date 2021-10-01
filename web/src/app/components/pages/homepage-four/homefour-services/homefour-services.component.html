@@ -1,0 +1,22 @@
+<section class="services-area ptb-100">
+    <div class="container">
+        <div class="section-title" *ngFor="let sectionTitleContent of sectionTitle;">
+            <h2>{{sectionTitleContent.title}}</h2>
+            <p>{{sectionTitleContent.paragraphText}}</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12" *ngFor="let ServicesBoxContent of singleServicesBoxItem;">
+                <div class="single-services-box-item">
+                    <div class="icon">
+                        <img [src]="ServicesBoxContent.icon" alt="image">
+                    </div>
+                    <h3><a routerLink="/{{ServicesBoxContent.link}}">{{ServicesBoxContent.title}}</a></h3>
+                    <p>{{ServicesBoxContent.paragraphText}}</p>
+                    <a routerLink="/{{ServicesBoxContent.link}}" class="learn-more-btn"><i class="{{ServicesBoxContent.linkIcon}}"></i>{{ServicesBoxContent.linkText}}</a>
+                    <div class="shape"><img src="assets/img/services/shape4.png" alt="image"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

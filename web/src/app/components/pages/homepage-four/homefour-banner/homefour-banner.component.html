@@ -1,0 +1,32 @@
+<div class="banner-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-5 col-md-12">
+                <div class="banner-wrapper-content" *ngFor="let Content of bannerWrapperContent;">
+                    <h1 class="wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1000ms">{{Content.title}}</h1>
+                    <p class="wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">{{Content.paragraphText}}</p>
+                    <div class="btn-box">
+                        <a routerLink="/{{Content.defaultBtnLink}}" class="default-btn wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1000ms"><i class="{{Content.defaultBtnIcon}}"></i>{{Content.defaultBtnText}}<span></span></a>
+                        <a routerLink="/{{Content.optionalBtnLink}}" class="default-btn wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1000ms"><i class="{{Content.optionalBtnIcon}}"></i>{{Content.optionalBtnText}}<span></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7 col-md-12">
+                <div class="banner-wrapper-animation-image">
+                    <img src="assets/img/main-banner/banner-four/img1.png" class="wow fadeInDown" data-wow-delay="1000ms" data-wow-duration="1000ms" alt="image">
+                    <img src="assets/img/main-banner/banner-four/img2.png" class="wow fadeInDown" data-wow-delay="1000ms" data-wow-duration="1000ms" alt="image">
+                    <img src="assets/img/main-banner/banner-four/img3.png" class="wow fadeInDown" data-wow-delay="1000ms" data-wow-duration="1000ms" alt="image">
+                    <img src="assets/img/main-banner/banner-four/img4.png" class="wow fadeInDown" data-wow-delay="1000ms" data-wow-duration="1000ms" alt="image">
+                    <img src="assets/img/main-banner/banner-four/img5.png" class="wow fadeInUp" data-wow-delay="1000ms" data-wow-duration="1000ms" alt="image">
+                    <img src="assets/img/main-banner/banner-four/img6.png" class="wow fadeInUp" data-wow-delay="1000ms" data-wow-duration="1000ms" alt="image">
+                    <img src="assets/img/main-banner/banner-four/img7.png" class="wow fadeInDown" data-wow-delay="1000ms" data-wow-duration="1000ms" alt="image">
+                    <img src="assets/img/main-banner/banner-four/img8.png" class="wow fadeInLeft" data-wow-delay="1000ms" data-wow-duration="1000ms" alt="image">
+                    <img src="assets/img/main-banner/banner-four/img9.png" class="wow fadeInDown" data-wow-delay="5s00ms" data-wow-duration="1000ms" alt="image">
+                    <img src="assets/img/main-banner/banner-four/img10.png" class="wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1000ms" alt="image">
+                    <img src="assets/img/main-banner/banner-four/main-pic.png" class="wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms" alt="image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

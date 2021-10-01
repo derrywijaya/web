@@ -1,0 +1,34 @@
+<div class="banner-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-5 col-md-12">
+                <div class="banner-content" *ngFor="let Content of bannerContent;">
+                    <h1 class="wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1000ms">{{Content.title}}</h1>
+                    <p class="wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">{{Content.paragraphText}}</p>
+                    <div class="btn-box">
+                        <a routerLink="/{{Content.defaultBtnLink}}" class="default-btn wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1000ms"><i class="{{Content.defaultBtnIcon}}"></i>{{Content.defaultBtnText}}<span></span></a>
+                        <a href="{{Content.videoBtnLink}}" class="video-btn wow fadeInLeft popup-youtube" data-wow-delay="300ms" data-wow-duration="1000ms"><i class="{{Content.videoBtnIcon}}"></i> {{Content.videoBtnText}}</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7 col-md-12">
+                <div class="banner-animation-image">
+                    <img src="assets/img/main-banner/banner-two/img1.png" class="wow fadeInDown" data-wow-delay="500ms" data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true">
+                    <img src="assets/img/main-banner/banner-two/img2.png" class="wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true">
+                    <img src="assets/img/main-banner/banner-two/img3.png" class="wow fadeInRight" data-wow-delay="500ms" data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true">
+                    <img src="assets/img/main-banner/banner-two/img4.png" class="wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true">
+                    <img src="assets/img/main-banner/banner-two/img5.png" class="wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true">
+                    <img src="assets/img/main-banner/banner-two/img6.png" class="wow fadeInLeft" data-wow-delay="500ms" data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true">
+                    <img src="assets/img/main-banner/banner-two/img7.png" class="wow fadeInLeft" data-wow-delay="500ms" data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true">
+                    <img src="assets/img/main-banner/banner-two/img8.png" class="wow fadeInDown" data-wow-delay="500ms" data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true">
+                    <img src="assets/img/main-banner/banner-two/img9.png" class="wow fadeInDown" data-wow-delay="500ms" data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true">
+                    <img src="assets/img/main-banner/banner-two/img10.png" class="wow fadeInRight" data-wow-delay="500ms" data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true">
+                    <img src="assets/img/main-banner/banner-two/img11.png" class="wow fadeInLeft" data-wow-delay="500ms" data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true">
+                    <img src="assets/img/main-banner/banner-two/img12.png" class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms" alt="image" data-speed="0.06" data-revert="true">
+                    <img src="assets/img/main-banner/banner-two/main-pic.png" alt="image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

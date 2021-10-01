@@ -1,0 +1,20 @@
+<section class="explore-learning-area ptb-100">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12">
+                <div class="explore-learning-content" *ngFor="let Content of exploreLearningContent;">
+                    <h2>{{Content.title}}</h2>
+                    <p>{{Content.paragraphText}}</p>
+                    <a routerLink="/{{Content.link}}" class="explore-learing-btn">{{Content.linkText}}</a>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12">
+                <div class="explore-learning-video" *ngFor="let Video of exploreLearningVideo;">
+                    <img [src]="Video.img" alt="image">
+                    <a href="{{Video.videoLink}}" class="video-btn popup-youtube"><i class="{{Video.icon}}"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,22 @@
+<section class="industries-serve-area bg-fafafb pt-100 pb-70">
+    <div class="container">
+        <div class="section-title" *ngFor="let sectionTitleContent of sectionTitle;">
+            <h2>{{sectionTitleContent.title}}</h2>
+            <p>{{sectionTitleContent.paragraphText}}</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 col-md-6" *ngFor="let IndustriesServeContent of singleIndustriesServeBox;">
+                <div class="single-industries-serve-box">
+                    <div class="icon">
+                        <i class="{{IndustriesServeContent.icon}}"></i>
+                    </div>
+                    {{IndustriesServeContent.title}}
+                    <a routerLink="/{{IndustriesServeContent.link}}" class="link-btn"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="vector-shape11"><img src="assets/img/shape/vector-shape11.png" alt="image"></div>
+</section>

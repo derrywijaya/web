@@ -1,0 +1,38 @@
+<section class="blog-area pt-100 pb-70">
+    <div class="container">
+        <div class="section-title" *ngFor="let sectionTitleContent of sectionTitle;">
+            <h2>{{sectionTitleContent.title}}</h2>
+            <p>{{sectionTitleContent.paragraphText}}</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6" *ngFor="let blogPostContent of singleBlogPost;">
+                <div class="single-blog-post bg-fffbf5">
+                    <div class="post-image">
+                        <a routerLink="/{{blogPostContent.postLink}}">
+                            <img [src]="blogPostContent.postImg" alt="image">
+                        </a>
+                    </div>
+
+                    <div class="post-content">
+                        <ul class="post-meta d-flex justify-content-between align-items-center">
+                            <li>
+                                <div class="post-author d-flex align-items-center">
+                                    <img [src]="blogPostContent.postAuthorImage" class="rounded-circle" alt="image">
+                                    <span>{{blogPostContent.postAuthorName}}</span>
+                                </div>
+                            </li>
+                            <li>
+                                <i class='flaticon-calendar'></i> {{blogPostContent.postDate}}
+                            </li>
+                        </ul>
+                        <h3><a routerLink="/{{blogPostContent.postLink}}">{{blogPostContent.postTitle}}</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="vector-shape1" data-speed="0.06" data-revert="true"><img src="assets/img/shape/vector-shape1.png" alt="image"></div>
+    <div class="vector-shape2" data-speed="0.06" data-revert="true"><img src="assets/img/shape/vector-shape2.png" alt="image"></div>
+</section>

@@ -1,0 +1,29 @@
+<section class="why-choose-us-area bg-color">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <div class="why-choose-us-content" *ngFor="let Content of whyChooseUsContent;">
+                    <h2>{{Content.title}}</h2>
+                    <p>{{Content.paragraphText1}}</p>
+                    <p>{{Content.paragraphText2}}</p>
+                    <a routerLink="/{{Content.link}}" class="default-btn"><i class="{{Content.linkIcon}}"></i>{{Content.linkText}}<span></span></a>
+                    <div class="map-shape2"><img src="assets/img/shape/map-shape2.png" alt="image"></div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12">
+                <div class="our-brand-partners-list" *ngFor="let List of ourBrandPartnersList;">
+                    <h2>{{List.title}}</h2>
+
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-sm-6 col-md-4" *ngFor="let Image of brandPartnersImg;">
+                            <img [src]="Image.img" alt="image">
+                        </div>
+                    </div>
+
+                    <a routerLink="/{{List.link}}" class="view-all">{{List.linkText}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

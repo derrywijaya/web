@@ -1,0 +1,17 @@
+<section class="featured-services-area pt-100 pb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6" *ngFor="let FeaturedServicesItem of singleFeaturedServicesItem;">
+                <div class="single-featured-services-item">
+                    <div class="icon">
+                        <img [src]="FeaturedServicesItem.icon" alt="image">
+                    </div>
+                    <h3><a routerLink="/{{FeaturedServicesItem.link}}">{{FeaturedServicesItem.title}}</a></h3>
+                    <p>{{FeaturedServicesItem.paragraphText}}</p>
+                    <a routerLink="/{{FeaturedServicesItem.link}}" class="default-btn"><i class="{{FeaturedServicesItem.btnIcon}}"></i>{{FeaturedServicesItem.btnText}}<span></span></a>
+                    <div class="shape"><img src="assets/img/services/shape3.png" alt="image"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

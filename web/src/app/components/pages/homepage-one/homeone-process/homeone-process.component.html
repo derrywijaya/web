@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="section-title" *ngFor="let sectionTitleContent of sectionTitle;">
+        <span class="sub-title"><img src="assets/img/star-icon.png" alt="image"> {{sectionTitleContent.subTitle}}</span>
+        <h2>{{sectionTitleContent.title}}</h2>
+        <p>{{sectionTitleContent.paragraphText}}</p>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-4 col-md-6" *ngFor="let processBoxContent of singleProcessBox;">
+            <div class="single-process-box">
+                <div class="number">{{processBoxContent.number}}</div>
+                <div class="image">
+                    <img [src]="processBoxContent.img" alt="image">
+                </div>
+                <h3>{{processBoxContent.title}}</h3>
+                <p>{{processBoxContent.paragraphText}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="circle-shape1"><img src="assets/img/shape/circle-shape1.png" alt="image"></div>

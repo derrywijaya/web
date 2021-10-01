@@ -1,0 +1,73 @@
+<section class="page-title-area">
+    <div class="container">
+        <div class="page-title-content" *ngFor="let pageTitle of pageTitleArea;">
+            <h2>{{pageTitle.title}}</h2>
+            <ul>
+                <li><a routerLink="/">Home</a></li>
+                <li>{{pageTitle.title}}</li>
+                <li>{{pageTitle.subTitle}}</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="shape-img1"><img src="assets/img/shape/shape1.svg" alt="image"></div>
+    <div class="shape-img2"><img src="assets/img/shape/shape2.png" alt="image"></div>
+    <div class="shape-img3"><img src="assets/img/shape/shape3.png" alt="image"></div>
+</section>
+
+<section class="case-studies-details-area ptb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-12">
+                <div class="case-studies-details-image" *ngFor="let Image of caseStudiesDetailsImage;">
+                    <img [src]="Image.img" alt="image">
+                </div>
+
+                <div class="case-studies-details-desc" *ngFor="let DetailsDesc of caseStudiesDetailsDesc;">
+                    <span class="sub-title">{{DetailsDesc.subTitle}}</span>
+                    <h3>{{DetailsDesc.title1}}</h3>
+                    <p>{{DetailsDesc.paragraph1}}</p>
+
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="image">
+                                <img [src]="DetailsDesc.img1" alt="image">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="content">
+                                <h3>{{DetailsDesc.title2}}</h3>
+                                <ul>
+                                    <li *ngFor="let ImportantFacts of caseStudiesDetailsDescImportantFacts;">{{ImportantFacts.title}}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p>{{DetailsDesc.paragraph2}}</p>
+                    <p>{{DetailsDesc.paragraph3}}</p>
+                    <h3>{{DetailsDesc.title3}}</h3>
+                    <p>{{DetailsDesc.paragraph4}}</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12">
+                <div class="case-studies-sidebar-sticky">
+                    <div class="case-studies-details-info">
+                        <ul>
+                            <li *ngFor="let Info of caseStudiesDetailsInfo;">
+                                <div class="icon">
+                                    <i class='{{Info.icon}}'></i>
+                                </div>
+                                <span>{{Info.title}}:</span>
+                                {{Info.subTitle}}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<app-related-case-studies></app-related-case-studies>

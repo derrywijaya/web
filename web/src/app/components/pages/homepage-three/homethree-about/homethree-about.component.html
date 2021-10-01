@@ -1,0 +1,27 @@
+<section class="about-area res-pt-0 pb-100 pt-70">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12">
+                <div class="about-img" *ngFor="let Image of aboutImage;">
+                    <img [src]="Image.img" alt="image">
+                    <div class="shape"><img src="assets/img/about/shape1.png"></div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12">
+                <div class="about-content">
+                    <div class="content" *ngFor="let Content of aboutContent;">
+                        <h2>{{Content.title}}</h2>
+                        <p>{{Content.paragraphText1}}</p>
+                        <ul class="content-list">
+                            <li *ngFor="let List of contentList;"><i class="{{List.icon}}"></i> {{List.title}}</li>
+                        </ul>
+                        <p>{{Content.paragraphText2}}</p>
+                        <p>{{Content.paragraphText3}}</p>
+                        <a routerLink="/{{Content.defaultBtnLink}}" class="default-btn"><i class="{{Content.defaultBtnIcon}}"></i>{{Content.defaultBtnText}}<span></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

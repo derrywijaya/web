@@ -1,0 +1,152 @@
+<!-- <section class="page-title-area">
+    <div class="container">
+         <div class="page-title-content" *ngFor="let pageTitle of pageTitleArea;">
+            <h2>{{pageTitle.title}}</h2>
+            <ul>
+                <li><a routerLink="/">Home</a></li>
+                <li>{{pageTitle.title}}</li>
+            </ul>
+        </div> 
+    </div>
+
+     <div class="shape-img1"><img src="assets/img/shape/shape1.svg" alt="image"></div>
+    <div class="shape-img2"><img src="assets/img/shape/shape2.png" alt="image"></div>
+    <div class="shape-img3"><img src="assets/img/shape/shape3.png" alt="image"></div> 
+</section> -->
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<section class="contact-area pb-100">
+    <div class="container" id="topDiv">
+        <div class="section-title" *ngFor="let sectionTitleContent of sectionTitle;">
+            <span class="sub-title"><img src="assets/img/star-icon.png" alt="image"> {{sectionTitleContent.subTitle}}</span>
+            <h2>{{sectionTitleContent.title}}</h2>
+            <p>{{sectionTitleContent.paragraphText}}</p>
+        </div>
+
+        <div  *ngIf="IsSuccess" class="row section-title">
+            <blockquote class="wp-block-quote">
+                <p>Your data has been saved. We will let you know via email when we are done.</p>
+        
+                <cite>Derry</cite>
+            </blockquote>
+        </div>
+
+        <div class="row">
+           
+
+            <div class="col-lg-12 col-md-12">
+                <div class="contact-form">
+                    <form id="contactForm" [formGroup]="ngForm" (ngSubmit)="onSubmit()" >
+                        <div class="row">
+                           
+
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <label class="required">Email</label>
+                                    <input type="email"  class="form-control" formControlName="email" [(ngModel)]="selected_data.email" placeholder="Your email address" [required]="true" >
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                
+                                <label class="required">Source Language</label>
+                                <!-- <div class="form-group form-control ">
+                                   
+                                    <select  style="width:100%;" formControlName="sourceLangId" [ngModel]="selected_data.sourceLangId" >
+                                        <option *ngFor="let c of languages" value="'{{c.code}}'">{{c.name}}</option>
+                                      </select>
+                                   
+                                </div> -->
+                                
+                                <mat-form-field class="form-group form-control">
+                                
+                                    <mat-select matNativeControl  style="width:100%;" formControlName="sourceLangId" [ngModel]="selected_data.sourceLangId" [required]="true" >                       
+                                      <mat-option value="" selected></mat-option>
+                                      <mat-option *ngFor="let c of languages" [value]="c.code">
+                                        {{c.name}}
+                                      </mat-option>
+                                    </mat-select>
+                                  </mat-form-field>
+                               
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <label class="required">Source Language Description</label>
+                                    <input type="text"  class="form-control" formControlName="sourceLangDesc" [(ngModel)]="selected_data.sourceLangDesc" placeholder="Source Language Description" [required]="true" >
+                                </div>
+                               
+                            </div>
+                            <br>
+                            <br>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <label class="required">Upload Source Language Text</label>
+                                    <input type="file"  class="form-control" formControlName="sourceLang" placeholder="Upload Soucer Language" [required]="true" (change)='openFile($event,"source")' >
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                <label class="required">Destination Language</label>
+                                <mat-form-field class="form-group form-control">
+                                
+                                    <mat-select matNativeControl  style="width:100%;" formControlName="destLangId" [ngModel]="selected_data.destLangId" [required]="true" >                       
+                                      <mat-option value="" selected></mat-option>
+                                      <mat-option *ngFor="let c of languages" [value]="c.code">
+                                        {{c.name}}
+                                      </mat-option>
+                                    </mat-select>
+                                  </mat-form-field>
+                                <!-- <div class="form-group form-control">
+                                    
+                                    <select  style="width:100%;" formControlName="destLangId" [(ngModel)]="selected_data.destLangId">
+                                        <option *ngFor="let c of languages" [ngValue]="c">{{c.name}}</option>
+                                      </select>
+                                   
+                                </div> -->
+                                
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <label class="required">Destinantion Language Description</label>
+                                    <input type="text"  class="form-control" formControlName="destLangDesc" [(ngModel)]="selected_data.destLangDesc" placeholder="Destination Language Description" [required]="true">
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <label class="required">Upload Destination Language Text</label>
+                                    <input type="file"  class="form-control" formControlName="destLang"  placeholder="Upload Destination Language" [required]="true" (change)='openFile($event,"dest")' >
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                <h4> Optional Dictionary Upload (word to word translation)</h4>
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <label >Upload Source to Destination Language Dictionary</label>
+                                    <input type="file"  class="form-control" formControlName="sourceToDestDic"   (change)='openFile($event,"sourceDic")' >
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <label >Upload  Destination to Source Language Dictionary</label>
+                                    <input type="file"  class="form-control" formControlName="destToSourceDic"   (change)='openFile($event,"destDic")' >
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 col-md-12">
+                                <button type="submit" [disabled]="ngForm.invalid" class="btn default-btn">Save Data</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

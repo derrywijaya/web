@@ -1,0 +1,68 @@
+.upcoming-bootcamps-area {
+    position: relative;
+    z-index: 1;
+}
+.upcoming-bootcamps-content {
+    text-align: center;
+
+    h2 {
+        max-width: 720px;
+        margin: {
+            left: auto;
+            right: auto;
+            bottom: 0;
+        };
+        font: {
+            size: 44px;
+        };
+    }
+    .default-btn {
+        margin: {
+            bottom: -5px;
+            top: 30px;
+        };
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .upcoming-bootcamps-content {
+        h2 {
+            max-width: 100%;
+            font-size: 27px;
+            margin: {
+                left: 0;
+                right: 0;
+            };
+        }
+        .default-btn {
+            margin-top: 20px;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .upcoming-bootcamps-content {
+        h2 {
+            max-width: 600px;
+            font-size: 35px;
+        }
+        .default-btn {
+            margin-top: 25px;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .upcoming-bootcamps-content {
+        h2 {
+            max-width: 700px;
+            font-size: 36px;
+        }
+    }
+
+}

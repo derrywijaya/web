@@ -1,0 +1,24 @@
+<section class="services-area pt-100 pb-70 bg-e3fbff">
+    <div class="container">
+        <div class="section-title" *ngFor="let sectionTitleContent of sectionTitle;">
+            <span class="sub-title"><img src="assets/img/star-icon.png" alt="image"> {{sectionTitleContent.subTitle}}</span>
+            <h2>{{sectionTitleContent.title}}</h2>
+            <p>{{sectionTitleContent.paragraphText}}</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6" *ngFor="let ServicesItem of singleServicesItem;">
+                <div class="single-services-item">
+                    <div class="icon">
+                        <img [src]="ServicesItem.icon" alt="image">
+                    </div>
+                    <h3><a routerLink="/{{ServicesItem.link}}">{{ServicesItem.title}}</a></h3>
+                    <p>{{ServicesItem.paragraphText}}</p>
+                    <a routerLink="/{{ServicesItem.link}}" class="default-btn"><i class="{{ServicesItem.btnIcon}}"></i>{{ServicesItem.btnText}}<span></span></a>
+                    <div class="shape1"><img src="assets/img/services/shape1.png" alt="image"></div>
+                    <div class="shape2"><img src="assets/img/services/shape2.png" alt="image"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

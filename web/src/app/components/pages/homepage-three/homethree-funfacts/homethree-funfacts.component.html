@@ -1,0 +1,15 @@
+<section class="funfacts-area pb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-3 col-6 col-md-3" *ngFor="let Funfacts of singleFunfactsBox;">
+                <div class="single-funfacts-item">
+                    <div class="icon">
+                        <img [src]="Funfacts.icon" alt="image">
+                    </div>
+                    <h3>{{Funfacts.title}}</h3>
+                    <p>{{Funfacts.subTitle}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,31 @@
+<section class="page-title-area">
+    <div class="container">
+        <div class="page-title-content" *ngFor="let pageTitle of pageTitleArea;">
+            <h2>{{pageTitle.title}}</h2>
+            <ul>
+                <li><a routerLink="/">Home</a></li>
+                <li>{{pageTitle.title}}</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="shape-img1"><img src="assets/img/shape/shape1.svg" alt="image"></div>
+    <div class="shape-img2"><img src="assets/img/shape/shape2.png" alt="image"></div>
+    <div class="shape-img3"><img src="assets/img/shape/shape3.png" alt="image"></div>
+</section>
+
+<app-aboutpage-about></app-aboutpage-about>
+
+<app-aboutpage-history></app-aboutpage-history>
+
+<section class="process-area pt-100 pb-70">
+    <app-homeone-process></app-homeone-process>
+</section>
+
+<section class="scientist-area bg-color pb-70">
+    <app-homeone-scientist></app-homeone-scientist>
+</section>
+
+<app-homeone-testimonials></app-homeone-testimonials>
+
+<app-homeone-partner></app-homeone-partner>

@@ -1,0 +1,44 @@
+<section class="scientist-area pt-100 pb-70">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7 col-md-12">
+                <div class="scientist-box-list">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-6 col-md-6 offset-lg-1" *ngFor="let ScientistItem1 of singleScientistItem1;">
+                            <div class="single-scientist-item">
+                                <img [src]="ScientistItem1.img" alt="image">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-6 col-md-6" *ngFor="let ScientistItem2 of singleScientistItem2;">
+                            <div class="single-scientist-item">
+                                <img [src]="ScientistItem2.img" alt="image">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-12 col-md-6 offset-lg-0 offset-md-3" *ngFor="let ScientistItem3 of singleScientistItem3;">
+                            <div class="single-scientist-item">
+                                <img [src]="ScientistItem3.img" alt="image">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="map-shape1"><img src="assets/img/shape/map-shape1.png" alt="image"></div>
+                    <div class="vector-shape5"><img src="assets/img/shape/vector-shape5.png" alt="image"></div>
+                </div>
+            </div>
+
+            <div class="col-lg-5 col-md-12">
+                <div class="scientist-section-title" *ngFor="let SectionTitle of scientistSectionTitle;">
+                    <span class="sub-title"><img src="assets/img/star-icon.png" alt="image"> {{SectionTitle.subTitle}}</span>
+                    <h2>{{SectionTitle.title}}</h2>
+                    <p>{{SectionTitle.paragraphText1}}</p>
+                    <p>{{SectionTitle.paragraphText2}}</p>
+                    <a routerLink="/{{SectionTitle.link}}" class="default-btn"><i class="{{SectionTitle.linkIcon}}"></i>{{SectionTitle.linkText}}<span></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="vector-shape4"><img src="assets/img/shape/vector-shape4.png" alt="image"></div>
+</section>

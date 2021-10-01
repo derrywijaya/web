@@ -1,0 +1,29 @@
+<section class="scientist-area bg-fafafb pt-100 pb-70">
+    <div class="container">
+        <div class="section-title">
+            <h2>Event Speakers</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 col-md-6" *ngFor="let Scientist of singleScientistItemBox;">
+                <div class="single-scientist-item-box">
+                    <div class="image">
+                        <img [src]="Scientist.img" alt="image">
+
+                        <ul class="social">
+                            <li><a href="{{Scientist.facebookLink}}" class="d-block" target="_blank"><i class='bx bxl-facebook'></i></a></li>
+                            <li><a href="{{Scientist.twitterLink}}" class="d-block" target="_blank"><i class='bx bxl-twitter'></i></a></li>
+                            <li><a href="{{Scientist.instagramLink}}" class="d-block" target="_blank"><i class='bx bxl-instagram'></i></a></li>
+                            <li><a href="{{Scientist.linkedinLink}}" class="d-block" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="content">
+                        <h3>{{Scientist.title}}</h3>
+                        <span>{{Scientist.subTitle}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

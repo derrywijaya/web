@@ -1,0 +1,302 @@
+.testimonials-area {
+    position: relative;
+    z-index: 1;
+
+    &.bg-color {
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -1;
+            height: 267px;
+            background-color: #f1f8fb;
+        }
+    }
+    &.bg-23173a {
+        background-color: var(--blackColor);
+
+        .section-title {
+            h2 {
+                color: var(--whiteColor);
+
+                .overlay {
+                    background-color: var(--whiteColor);
+                }
+            }
+            p {
+                color: var(--whiteColor);
+            }
+        }
+    }
+}
+.single-testimonials-item {
+    margin-bottom: 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    padding: 130px 50px 50px;
+    text-align: center;
+
+    p {
+        margin-bottom: 0;
+        font-size: 18px;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: var(--whiteColor);
+        z-index: -1;
+        height: 87%;
+        border-radius: 5px;
+        right: 0;
+    }
+    &::after {
+        content: "\f106";
+        position: absolute;
+        left: 0;
+        color: var(--blackColor);
+        top: -20px;
+        line-height: 1;
+        z-index: -1;
+        right: 0;
+        opacity: .05;
+        font: {
+            family: Flaticon;
+            size: 150px;
+        };
+    }
+    .client-info {
+        margin-top: 25px;
+
+        img {
+            width: 50px !important;
+            height: 50px;
+            display: inline-block !important;
+            border-radius: 50%;
+        }
+        .title {
+            text-align: left;
+            margin-left: 15px;
+
+            h3 {
+                font-size: 18px;
+                margin-bottom: 3px;
+            }
+            span {
+                color: var(--optionalColor);
+                font: {
+                    size: 15px;
+                    weight: 600;
+                };
+            }
+        }
+    }
+}
+.single-testimonials-box {
+    margin-bottom: 30px;
+    background-color: var(--whiteColor);
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    padding: 70px 50px 40px;
+    text-align: center;
+    margin-top: 40px;
+
+    &.bg-fafafb {
+        background-color: #fafafb;
+    }
+    img {
+        width: 80px !important;
+        height: 80px;
+        display: inline-block !important;
+        border-radius: 50%;
+        border: 5px solid #e3fbff;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -40px;
+        margin: auto;
+    }
+    p {
+        margin-bottom: 0;
+        font-size: 18px;
+    }
+    &::after {
+        content: "\f106";
+        position: absolute;
+        bottom: 0;
+        color: var(--blackColor);
+        line-height: 1;
+        z-index: -1;
+        right: 20px;
+        opacity: .05;
+        font: {
+            family: Flaticon;
+            size: 140px;
+        };
+    }
+    .client-info {
+        margin-top: 25px;
+
+        h3 {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        span {
+            color: var(--optionalColor);
+            font: {
+                size: 15px;
+                weight: 600;
+            };
+        }
+    }
+}
+.testimonials-view-btn {
+    margin-top: 25px;
+
+    .default-btn {
+        background-color: transparent;
+        color: var(--mainColor);
+        border: 1px solid #eae1d6;
+        margin-bottom: -7px;
+
+        span {
+            background-color: var(--mainColor);
+        }
+        &:hover {
+            color: var(--whiteColor);
+            border-color: var(--mainColor);
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .testimonials-area {
+        &.bg-f1f8fb {
+            padding-top: 60px;
+        }
+    }
+    .single-testimonials-item {
+        padding: 70px 20px 25px;
+
+        &::after {
+            top: -10px;
+            font-size: 70px;
+        }
+        &::before {
+            height: 95%;
+        }
+        p {
+            font-size: 15.5px;
+        }
+        .client-info {
+            margin-top: 20px;
+
+            .title {
+                h3 {
+                    font-size: 16px;
+                }
+                span {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .testimonials-view-btn {
+        margin-top: 15px;
+
+        .default-btn {
+            margin-bottom: -5px;
+        }
+    }
+    .single-testimonials-box {
+        padding: 65px 20px 30px;
+        margin-top: 30px;
+
+        img {
+            border-width: 3px;
+            top: -30px;
+        }
+        p {
+            font-size: 15.5px;
+        }
+        .client-info {
+            margin-top: 20px;
+
+            h3 {
+                font-size: 17px;
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .testimonials-area {
+        &.bg-f1f8fb {
+            padding-top: 80px;
+        }
+    }
+    .single-testimonials-item {
+        padding: 110px 25px 35px;
+
+        &::before {
+            height: 92%;
+        }
+        p {
+            font-size: 16px;
+        }
+        &::after {
+            top: -15px;
+            font-size: 110px;
+        }
+        .client-info {
+            .title {
+                h3 {
+                    font-size: 17px;
+                }
+                span {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .testimonials-view-btn {
+        margin-top: 15px;
+
+        .default-btn {
+            margin-bottom: -5px;
+        }
+    }
+    .single-testimonials-box {
+        padding: 65px 25px 30px;
+
+        p {
+            font-size: 16px;
+        }
+        .client-info {
+            h3 {
+                font-size: 18px;
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+        &::after {
+            font-size: 75px;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}

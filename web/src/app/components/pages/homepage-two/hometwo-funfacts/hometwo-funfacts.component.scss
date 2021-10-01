@@ -1,0 +1,208 @@
+.funfacts-area {
+    position: relative;
+    z-index: 1;
+
+    &.bg-image {
+        background: {
+            color: var(--mainColor);
+            position: center center;
+            size: cover;
+            repeat: no-repeat;
+            image: url(../../../../../assets/img/funfacts/funfacts-bg.jpg);
+        };
+        .single-funfacts-item {
+            h3 {
+                color: var(--whiteColor);
+            }
+            &::before {
+                background-color: #402939;
+            }
+            p {
+                color: #a6a6b4;
+            }
+        }
+    }
+}
+.single-funfacts-box {
+    margin-bottom: 30px;
+    border: 1px solid #f0eae2;
+    border-radius: 5px;
+    padding: 20px 20px 20px 98px;
+    position: relative;
+    background-color: var(--whiteColor);
+    transition: var(--transition);
+
+    .icon {
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    h3 {
+        margin-bottom: 3px;
+        font: {
+            size: 28px;
+        };
+    }
+    &:hover {
+        border-color: var(--mainColor);
+    }
+}
+.single-funfacts-item {
+    margin-bottom: 30px;
+    padding-left: 98px;
+    position: relative;
+
+    .icon {
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    h3 {
+        margin-bottom: 3px;
+        font: {
+            size: 28px;
+        };
+    }
+    &::before {
+        width: 1px;
+        height: 100%;
+        content: '';
+        position: absolute;
+        right: 10px;
+        top: 0;
+        background-color: #eacbae;
+        transform: rotate(25deg);
+    }
+}
+.col-lg-3 {
+    &:last-child {
+        .single-funfacts-item {
+            &::before {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .single-funfacts-box {
+        padding: 15px 8px;
+        text-align: center;
+
+        .icon {
+            position: relative;
+            transform: translateY(0);
+            margin-bottom: 20px;
+            left: 0;
+            top: 0;
+
+            img {
+                width: 50px;
+            }
+        }
+        h3 {
+            font-size: 20px;
+        }
+    }
+    .single-funfacts-item {
+        text-align: center;
+        padding-left: 0;
+
+        .icon {
+            position: relative;
+            left: 0;
+            transform: unset;
+            margin-bottom: 20px;
+        }
+        h3 {
+            font-size: 22px;
+        }
+        &::before {
+            display: none;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .single-funfacts-box {
+        padding: 20px 15px;
+        text-align: center;
+
+        .icon {
+            position: relative;
+            left: 0;
+            top: 0;
+            transform: translateY(0);
+            margin-bottom: 20px;
+        }
+        h3 {
+            font-size: 22px;
+        }
+    }
+    .single-funfacts-item {
+        padding-left: 0;
+        text-align: center;
+
+        .icon {
+            position: relative;
+            left: 0;
+            top: 0;
+            transform: translateY(0);
+            margin-bottom: 20px;
+        }
+        h3 {
+            font-size: 22px;
+        }
+        &::before {
+            right: -25px;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .single-funfacts-box {
+        padding: 15px 15px 15px 80px;
+
+        .icon {
+            left: 15px;
+
+            img {
+                width: 50px;
+            }
+        }
+        h3 {
+            font-size: 22px;
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+    .single-funfacts-item {
+        padding-left: 85px;
+
+        .icon {
+            left: 15px;
+
+            img {
+                width: 50px;
+            }
+        }
+        h3 {
+            font-size: 22px;
+        }
+        p {
+            font-size: 15px;
+        }
+        &::before {
+            right: -8px;
+        }
+    }
+
+}

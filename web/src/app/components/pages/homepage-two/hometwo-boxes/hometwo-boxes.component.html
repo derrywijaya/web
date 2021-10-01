@@ -1,0 +1,17 @@
+<section class="boxes-area pb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6" *ngFor="let BoxItem of singleBoxesItem;">
+                <div class="single-boxes-item">
+                    <div class="icon">
+                        <img [src]="BoxItem.icon" alt="image">
+                    </div>
+                    <h3><a routerLink="/{{BoxItem.link}}">{{BoxItem.title}}</a></h3>
+                    <p>{{BoxItem.paragraphText}}</p>
+                    <a routerLink="/{{BoxItem.link}}" class="default-btn"><i class="{{BoxItem.btnIcon}}"></i>{{BoxItem.btnText}}<span></span></a>
+                    <div class="shape1"><img src="assets/img/services/shape2.png" alt="image"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,26 @@
+<section class="testimonials-area bg-color pt-100 bg-fafafb">
+    <div class="container">
+        <div class="section-title" *ngFor="let sectionTitleContent of sectionTitle;">
+            <span class="sub-title"><img src="assets/img/star-icon.png" alt="image"> {{sectionTitleContent.subTitle}}</span>
+            <h2>{{sectionTitleContent.title}}</h2>
+            <p>{{sectionTitleContent.paragraphText}}</p>
+        </div>
+
+        <div class="testimonials-slides owl-carousel owl-theme">
+            <div class="single-testimonials-box" *ngFor="let TestimonialsBoxContent of singleTestimonialsBox;">
+                <img [src]="TestimonialsBoxContent.clientImg" class="shadow-sm" alt="image">
+                <p>{{TestimonialsBoxContent.paragraphText}}</p>
+                <div class="client-info">
+                    <h3>{{TestimonialsBoxContent.clientName}}</h3>
+                    <span>{{TestimonialsBoxContent.clientDesignation}}</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonials-view-btn text-center" *ngFor="let Btn of testimonialsBtn;">
+            <a routerLink="/{{Btn.link}}" class="default-btn"><i class="{{Btn.icon}}"></i>{{Btn.text}}<span></span></a>
+        </div>
+    </div>
+
+    <div class="shape-img1"><img src="assets/img/shape/shape1.svg" alt="image"></div>
+</section>

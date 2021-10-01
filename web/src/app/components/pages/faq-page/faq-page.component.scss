@@ -1,0 +1,125 @@
+.faq-accordion {
+    .accordion {
+        list-style-type: none;
+        padding-left: 0;
+        margin: {
+            bottom: 0;
+        };
+        .accordion-item {
+            border-radius: 5px;
+            display: block;
+            box-shadow: 2px 8px 20px 0 rgba(25, 42, 70, 0.13) !important;
+            background: var(--whiteColor);
+            margin-bottom: 15px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        .accordion-title {
+            padding: 20px 25px 17px 60px;
+            color: var(--blackColor);
+            text-decoration: none;
+            position: relative;
+            display: block;
+            cursor: auto;;
+            font: {
+                size: 18px;
+                weight: 800;
+            };
+            i {
+                position: absolute;
+                left: 25px;
+                top: 18px;
+                font-size: 25px;
+                transition: var(--transition);
+            }
+            &.active {
+                i {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+        .accordion-content {
+            position: relative;
+            margin-top: -5px;
+            padding: {
+                bottom: 20px;
+                right: 25px;
+                left: 60px;
+            };
+            p {
+                line-height: 1.8;
+            }
+            &.show {
+                display: block;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .faq-accordion-tab {
+        .tabs {
+            margin-bottom: 20px;
+
+            li {
+                margin-bottom: 20px;
+
+                a {
+                    padding: 15px 10px;
+                    font-size: 15px;
+
+                    i {
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+    .faq-accordion {
+        .accordion {
+            .accordion-title {
+                padding: 15px 10px 15px 37px;
+                font-size: 15px;
+
+                i {
+                    left: 10px;
+                    top: 50%;
+                    font-size: 20px;
+                    transform: translateY(-50%);
+                }
+            }
+            .accordion-content {
+                padding: {
+                    bottom: 15px;
+                    right: 15px;
+                    left: 42px;
+                };
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .faq-accordion-tab {
+        .tabs {
+            margin-bottom: 30px;
+
+            li {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .faq-accordion {
+        .accordion {
+            .accordion-title {
+                font-size: 17px;
+            }
+        }
+    }
+
+}

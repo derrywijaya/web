@@ -1,0 +1,25 @@
+<section class="case-study-area bg-fffbf5">
+    <div class="case-study-slides owl-carousel owl-theme">
+        <div class="single-case-study-item ptb-100" *ngFor="let singleCaseStudyItemContent of singleCaseStudyItem;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="case-study-content">
+                            <span class="sub-title"><img src="assets/img/star-icon.png" alt="image"> {{singleCaseStudyItemContent.subTitle}}</span>
+                            <h2>{{singleCaseStudyItemContent.title}}</h2>
+                            <p>{{singleCaseStudyItemContent.paragraphText1}}</p>
+                            <p>{{singleCaseStudyItemContent.paragraphText2}}</p>
+                            <a routerLink="/{{singleCaseStudyItemContent.link}}" class="default-btn"><i class="{{singleCaseStudyItemContent.linkIcon}}"></i>{{singleCaseStudyItemContent.linkText}}<span></span></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12">
+                        <div class="case-study-image">
+                            <a routerLink="/{{singleCaseStudyItemContent.link}}" class="d-block"><img [src]="singleCaseStudyItemContent.img" alt="image"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
